@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sat 01 Sep 2012 06:08:59 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Sun 02 Sep 2012 03:07:50 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -106,10 +106,24 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F60E920/5043A0D0;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4ED6BA73;
 Reference = R9;
 ValeurCmp = 10k;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50440A9A;
+Reference = S0;
+ValeurCmp = DTSM-6;
+IdModule  = switch-tact-DTSM-6;
 EndCmp
 
 BeginCmp
@@ -309,15 +323,15 @@ IdModule  = MX1A-sm1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5042A9E4;
-Reference = S031;
+TimeStamp = /4F60E920/5040DDBB;
+Reference = S31;
 ValeurCmp = MX1A;
 IdModule  = MX1A-sm1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDBB;
-Reference = S31;
+TimeStamp = /4F60E920/5042A9E4;
+Reference = S031;
 ValeurCmp = MX1A;
 IdModule  = MX1A-sm1;
 EndCmp
@@ -663,13 +677,6 @@ TimeStamp = /4F60E920/5040F1FA;
 Reference = S7012;
 ValeurCmp = MX1A;
 IdModule  = MX1A-sm1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F665BD9;
-Reference = SD1;
-ValeurCmp = DIPSW4;
-IdModule  = DIP-8__300;
 EndCmp
 
 BeginCmp
