@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3  Date: Sun 08 Jan 2012 02:19:28 PM CET
+#encoding utf-8
+#
+# DTSM-6
+#
+DEF DTSM-6 S 0 40 Y Y 1 L N
+F0 "S" -285 -100 50 V V L BNN
+F1 "DTSM-6" -185 125 50 V V L BNN
+F2 "switch-tact-DTSM-6" 0 150 50 H I C CNN
+DRAW
+P 2 1 0 0  -175 -75  -125 -75 N
+P 2 1 0 0  -175 0  -175 -75 N
+P 2 1 0 0  -175 0  -125 0 N
+P 2 1 0 0  -175 75  -175 0 N
+P 2 1 0 0  -175 75  -125 75 N
+P 2 1 0 0  -100 0  -75 0 N
+P 2 1 0 0  -50 0  -25 0 N
+P 2 1 0 0  0 -100  -50 75 N
+P 2 1 0 0  0 75  0 100 N
+P 2 1 0 0  100 -100  0 -100 N
+P 2 1 0 0  100 100  0 100 N
+C 0 -100 5 1 1 0 F
+C 0 100 5 1 1 0 F
+X 1 1 0 -200 100 U 40 40 1 1 P
+X 2 2 100 -200 100 U 40 40 1 1 P
+X 3 3 0 200 100 D 40 40 1 1 P
+X 4 4 100 200 100 D 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

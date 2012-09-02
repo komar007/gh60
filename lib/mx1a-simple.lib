@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3  Date: Fri 31 Aug 2012 06:07:28 PM CEST
+#encoding utf-8
+#
+# MX1A
+#
+DEF MX1A S 0 40 Y Y 1 F N
+F0 "S" -150 250 60 H V C CNN
+F1 "MX1A" 0 100 60 H V C CNN
+DRAW
+P 2 0 1 0  -100 150  50 250 N
+P 3 0 1 0  -200 300  -200 150  -100 150 N
+X ~ 1 -200 400 100 D 50 50 1 1 P
+X ~ 2 200 150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
