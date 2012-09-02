@@ -1,39 +1,12 @@
-EESchema Schematic File Version 2  date Sun 02 Sep 2012 03:07:25 PM CEST
+EESchema Schematic File Version 2  date Sun 02 Sep 2012 10:54:35 PM CEST
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:mx1a-simple
 LIBS:aker
 LIBS:atmega32u4
 LIBS:dtsjw
 LIBS:oupiin_usb
+LIBS:device
+LIBS:conn
 LIBS:keyboard-cache
 EELAYER 25  0
 EELAYER END
