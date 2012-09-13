@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Sep 2012 10:54:35 PM CEST
+EESchema Schematic File Version 2  date Thu 13 Sep 2012 04:50:28 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "2 sep 2012"
+Date "13 sep 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -60,7 +60,7 @@ L USBMINI_B05 J1
 U 1 1 4F08252F
 P 2150 5400
 F 0 "J1" H 2075 5700 60  0000 C CNN
-F 1 "USBMINI_B05" H 2100 5050 60  0001 C CNN
+F 1 "MINI" H 2100 5050 60  0001 C CNN
 	1    2150 5400
 	1    0    0    -1  
 $EndComp
