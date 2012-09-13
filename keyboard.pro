@@ -1,13 +1,8 @@
-update=Sun 02 Sep 2012 10:54:34 PM CEST
+update=Thu 13 Sep 2012 12:24:32 PM CEST
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,21 +21,10 @@ EdgeLar=150
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
+LibName1=MX1A
+LibName2=HIROSE_USB
+LibName3=holes
 LibDir=lib
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=MX1A
-LibName13=HIROSE_USB
-LibName14=holes
 [eeschema]
 version=1
 LibDir=lib
@@ -61,3 +45,8 @@ LibName5=dtsjw
 LibName6=oupiin_usb
 LibName7=device
 LibName8=conn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
