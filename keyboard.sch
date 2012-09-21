@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 14 Sep 2012 01:04:40 AM CEST
+EESchema Schematic File Version 2  date Fri 14 Sep 2012 09:41:39 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "13 sep 2012"
+Date "14 sep 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -455,53 +455,53 @@ F20 "col14" T L 8150 5000 60
 F21 "CAPS_LED" T L 8150 5250 60 
 $EndSheet
 Entry Wire Line
-	6900 3000 7000 3100
+	7100 3000 7200 3100
 Entry Wire Line
-	6900 3100 7000 3200
+	7100 3100 7200 3200
 Entry Wire Line
-	6900 3200 7000 3300
+	7100 3200 7200 3300
 Entry Wire Line
-	6900 3300 7000 3400
+	7100 3300 7200 3400
 Entry Wire Line
-	6900 3400 7000 3500
+	7100 3400 7200 3500
 Entry Wire Line
-	6900 3500 7000 3600
+	7100 3500 7200 3600
 Entry Wire Line
-	6900 3600 7000 3700
+	7100 3600 7200 3700
 Entry Wire Line
-	6900 3700 7000 3800
+	7100 3700 7200 3800
 Entry Wire Line
-	6900 4000 7000 4100
+	7100 4000 7200 4100
 Entry Wire Line
-	6900 4200 7000 4300
+	7100 4200 7200 4300
 Entry Wire Line
-	6900 4300 7000 4400
+	7100 4300 7200 4400
 Entry Wire Line
-	6900 4400 7000 4500
+	7100 4400 7200 4500
 Entry Wire Line
-	6900 4500 7000 4600
+	7100 4500 7200 4600
 Entry Wire Line
-	6900 4600 7000 4700
+	7100 4600 7200 4700
 Entry Wire Line
-	6900 4700 7000 4800
+	7100 4700 7200 4800
 Entry Wire Line
-	6900 4800 7000 4900
+	7100 4800 7200 4900
 Entry Wire Line
-	6900 4900 7000 5000
+	7100 4900 7200 5000
 Entry Wire Line
-	6900 5200 7000 5300
+	7100 5200 7200 5300
 Entry Wire Line
-	6900 5400 7000 5500
+	7100 5400 7200 5500
 Entry Wire Line
-	6900 5500 7000 5600
+	7100 5500 7200 5600
 Entry Wire Line
-	6900 5600 7000 5700
+	7100 5600 7200 5700
 Entry Wire Line
-	6900 5700 7000 5800
+	7100 5700 7200 5800
 Entry Wire Line
-	6900 5800 7000 5900
+	7100 5800 7200 5900
 Entry Wire Line
-	6900 5900 7000 6000
+	7100 5900 7200 6000
 $Comp
 L DTSM-6 S0
 U 1 1 50440A9A
@@ -512,15 +512,15 @@ F 2 "switch-tact-DTSM-6" H 2000 2900 50  0001 C CNN
 	1    2000 2750
 	0    1    1    0   
 $EndComp
-Text Label 6650 4900 0    60   ~ 0
+Text Label 6850 4900 0    60   ~ 0
 row1
-Text Label 6650 4800 0    60   ~ 0
+Text Label 6850 4800 0    60   ~ 0
 row2
-Text Label 6650 4700 0    60   ~ 0
+Text Label 6850 4700 0    60   ~ 0
 row3
-Text Label 6650 4600 0    60   ~ 0
+Text Label 6850 4600 0    60   ~ 0
 row4
-Text Label 6650 4400 0    60   ~ 0
+Text Label 6850 4400 0    60   ~ 0
 row5
 Entry Wire Line
 	7650 3100 7750 3000
@@ -548,19 +548,19 @@ Text Label 7800 3300 0    60   ~ 0
 row4
 Text Label 7800 3400 0    60   ~ 0
 row5
-Text Label 6650 5800 0    60   ~ 0
+Text Label 6850 5800 0    60   ~ 0
 col2
-Text Label 6650 5900 0    60   ~ 0
+Text Label 6850 5900 0    60   ~ 0
 col1
-Text Label 6650 5200 0    60   ~ 0
+Text Label 6850 5200 0    60   ~ 0
 col3
 Entry Wire Line
-	6900 3900 7000 4000
-Text Label 6650 3900 0    60   ~ 0
+	7100 3900 7200 4000
+Text Label 6850 3900 0    60   ~ 0
 col4
-Text Label 6650 4000 0    60   ~ 0
+Text Label 6850 4000 0    60   ~ 0
 col5
-Text Label 6650 3100 0    60   ~ 0
+Text Label 6850 3100 0    60   ~ 0
 col6
 Entry Wire Line
 	7650 3800 7750 3700
@@ -586,11 +586,11 @@ Text Label 7800 4100 0    60   ~ 0
 col5
 Text Label 7800 4200 0    60   ~ 0
 col6
-Text Label 6650 3200 0    60   ~ 0
+Text Label 6850 3200 0    60   ~ 0
 col10
-Text Label 6650 3300 0    60   ~ 0
+Text Label 6850 3300 0    60   ~ 0
 col11
-Text Label 6650 4200 0    60   ~ 0
+Text Label 6850 4200 0    60   ~ 0
 col12
 Text Label 7800 4300 0    60   ~ 0
 col7
@@ -604,15 +604,15 @@ Entry Wire Line
 	7650 4500 7750 4400
 Entry Wire Line
 	7650 4600 7750 4500
-Text Label 6650 3700 0    60   ~ 0
+Text Label 6850 3700 0    60   ~ 0
 col9
 Text Label 7800 4600 0    60   ~ 0
 col10
 Entry Wire Line
 	7650 4700 7750 4600
-Text Label 6650 4300 0    60   ~ 0
+Text Label 6850 4300 0    60   ~ 0
 col13
-Text Label 6650 4500 0    60   ~ 0
+Text Label 6850 4500 0    60   ~ 0
 col7
 Text Label 7800 4900 0    60   ~ 0
 col13
@@ -626,10 +626,18 @@ Entry Wire Line
 	7650 4800 7750 4700
 Text Label 7800 4700 0    60   ~ 0
 col11
-Text Label 6650 3600 0    60   ~ 0
+Text Label 6850 3600 0    60   ~ 0
 col8
 Text Label 7800 4800 0    60   ~ 0
 col12
+Entry Wire Line
+	7650 4900 7750 4800
+Text Label 6850 3500 0    60   ~ 0
+caps
+Text Label 7800 5250 0    60   ~ 0
+caps
+Entry Wire Line
+	7650 5350 7750 5250
 Wire Wire Line
 	8150 4200 7750 4200
 Wire Wire Line
@@ -643,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3700 8150 3700
 Wire Wire Line
-	5750 3900 6900 3900
+	5750 3900 7100 3900
 Wire Wire Line
 	7750 3400 8150 3400
 Wire Wire Line
@@ -659,9 +667,9 @@ Wire Wire Line
 Wire Bus Line
 	7650 2900 7650 5400
 Wire Bus Line
-	7000 2900 7650 2900
+	7200 2900 7650 2900
 Wire Bus Line
-	7000 2900 7000 6000
+	7200 2900 7200 6000
 Wire Wire Line
 	1550 2750 1800 2750
 Wire Wire Line
@@ -669,13 +677,13 @@ Wire Wire Line
 Wire Wire Line
 	6400 1650 7000 1650
 Wire Wire Line
-	5750 5200 6900 5200
+	5750 5200 7100 5200
 Wire Wire Line
-	5750 5500 6900 5500
+	5750 5500 7100 5500
 Wire Wire Line
-	5750 5700 6900 5700
+	5750 5700 7100 5700
 Wire Wire Line
-	5750 5900 6900 5900
+	5750 5900 7100 5900
 Wire Wire Line
 	6100 3700 5750 3700
 Wire Wire Line
@@ -685,21 +693,21 @@ Wire Wire Line
 Wire Wire Line
 	6500 3700 6500 3800
 Wire Wire Line
-	6900 3700 6500 3700
+	7100 3700 6500 3700
 Wire Wire Line
-	6900 3500 6400 3500
+	7100 3500 6400 3500
 Wire Wire Line
-	6900 3300 5750 3300
+	7100 3300 5750 3300
 Wire Wire Line
-	6900 3100 5750 3100
+	7100 3100 5750 3100
 Wire Wire Line
-	6900 4900 5750 4900
+	7100 4900 5750 4900
 Wire Wire Line
-	6900 4700 5750 4700
+	7100 4700 5750 4700
 Wire Wire Line
-	6900 4500 5750 4500
+	7100 4500 5750 4500
 Wire Wire Line
-	6900 4300 5750 4300
+	7100 4300 5750 4300
 Wire Bus Line
 	8600 1300 8600 2100
 Wire Wire Line
@@ -828,29 +836,29 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 2900 4000
 Wire Wire Line
-	5750 4200 6900 4200
+	5750 4200 7100 4200
 Wire Wire Line
-	5750 4400 6900 4400
+	5750 4400 7100 4400
 Wire Wire Line
-	5750 4600 6900 4600
+	5750 4600 7100 4600
 Wire Wire Line
-	5750 4800 6900 4800
+	5750 4800 7100 4800
 Wire Wire Line
-	5750 3000 6900 3000
+	5750 3000 7100 3000
 Wire Wire Line
-	5750 3200 6900 3200
+	5750 3200 7100 3200
 Wire Wire Line
-	6400 3400 6900 3400
+	6400 3400 7100 3400
 Wire Wire Line
-	6900 3600 6400 3600
+	7100 3600 6400 3600
 Wire Wire Line
-	6900 5800 5750 5800
+	7100 5800 5750 5800
 Wire Wire Line
-	6900 5600 5750 5600
+	7100 5600 5750 5600
 Wire Wire Line
-	6900 5400 5750 5400
+	7100 5400 5750 5400
 Wire Wire Line
-	5750 4000 6900 4000
+	5750 4000 7100 4000
 Wire Wire Line
 	6400 1750 7000 1750
 Wire Bus Line
@@ -875,6 +883,6 @@ Wire Wire Line
 	8150 4700 7750 4700
 Wire Wire Line
 	8150 4800 7750 4800
-Entry Wire Line
-	7650 4900 7750 4800
+Wire Wire Line
+	7750 5250 8150 5250
 $EndSCHEMATC
