@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 03 Oct 2012 12:17:51 AM CEST
+EESchema Schematic File Version 2  date Sun 07 Oct 2012 06:09:17 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "2 oct 2012"
+Date "6 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -61,6 +61,8 @@ U 1 1 4F08252F
 P 2150 5400
 F 0 "J1" H 2075 5700 60  0000 C CNN
 F 1 "MINI" H 2100 5050 60  0001 C CNN
+F 4 "Molex" H 2150 5400 60  0001 C CNN "Vendor"
+F 5 "0548190572" H 2150 5400 60  0001 C CNN "Product"
 	1    2150 5400
 	1    0    0    -1  
 $EndComp
@@ -491,14 +493,6 @@ Entry Wire Line
 Entry Wire Line
 	7100 5200 7200 5300
 Entry Wire Line
-	7100 5400 7200 5500
-Entry Wire Line
-	7100 5500 7200 5600
-Entry Wire Line
-	7100 5600 7200 5700
-Entry Wire Line
-	7100 5700 7200 5800
-Entry Wire Line
 	7100 5800 7200 5900
 Entry Wire Line
 	7100 5900 7200 6000
@@ -679,10 +673,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 5200 7100 5200
 Wire Wire Line
-	5750 5500 7100 5500
-Wire Wire Line
-	5750 5700 7100 5700
-Wire Wire Line
 	5750 5900 7100 5900
 Wire Wire Line
 	6100 3700 5750 3700
@@ -854,10 +844,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 5800 5750 5800
 Wire Wire Line
-	7100 5600 5750 5600
-Wire Wire Line
-	7100 5400 5750 5400
-Wire Wire Line
 	5750 4000 7100 4000
 Wire Wire Line
 	6400 1750 7000 1750
@@ -885,4 +871,6 @@ Wire Wire Line
 	8150 4800 7750 4800
 Wire Wire Line
 	7750 5250 8150 5250
+Text Label 6850 3400 0    60   ~ 0
+col14
 $EndSCHEMATC

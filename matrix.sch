@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 03 Oct 2012 12:17:51 AM CEST
+EESchema Schematic File Version 2  date Sun 07 Oct 2012 06:09:17 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "2 oct 2012"
+Date "6 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -725,7 +725,7 @@ col13
 Text Notes 10700 2950 0    120  ~ 0
 col14
 Text Notes 7400 2950 0    120  ~ 0
-col1
+col8
 $Comp
 L MX1A S601
 U 1 1 5040F098
@@ -1441,6 +1441,15 @@ F 1 "DIODE" H 3700 5500 40  0000 C CNN
 	1    3800 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L LED DCAPS3
+U 1 1 506E072F
+P 13850 2150
+F 0 "DCAPS3" H 13850 2250 50  0000 C CNN
+F 1 "LED" H 13850 2050 50  0000 C CNN
+	1    13850 2150
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	4600 1900 4600 8550
 Wire Wire Line
@@ -1630,9 +1639,9 @@ Wire Wire Line
 Wire Wire Line
 	13250 1700 13250 1950
 Wire Wire Line
-	13250 1950 13550 1950
+	13250 1950 13850 1950
 Wire Wire Line
-	13550 2350 13250 2350
+	13250 2350 13850 2350
 Wire Wire Line
 	13250 2350 13250 2600
 Wire Wire Line
@@ -2121,4 +2130,10 @@ Connection ~ 10600 6300
 Connection ~ 11150 6300
 Connection ~ 4550 7800
 Connection ~ 4000 5350
+Connection ~ 8550 4650
+Connection ~ 8550 4050
+Connection ~ 8550 3450
+Connection ~ 13550 1950
+Connection ~ 13550 1950
+Connection ~ 13550 2350
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 02 Oct 2012 08:08:33 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 04 Oct 2012 11:58:30 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -512,6 +512,13 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F60E920/506E072F;
+Reference = DCAPS3;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E9998BD;
 Reference = IC1;
 ValeurCmp = ATMEGA32U4;
@@ -771,15 +778,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5042A9E4;
-Reference = S031;
+TimeStamp = /4F60E920/5040DDBB;
+Reference = S31;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDBB;
-Reference = S31;
+TimeStamp = /4F60E920/5042A9E4;
+Reference = S031;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
