@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 04 Oct 2012 11:58:30 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 11 Oct 2012 11:15:17 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
 ValeurCmp = MINI;
-IdModule  = HIROSE_USB;
+IdModule  = 3515;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Oct 2012 06:09:17 PM CEST
+EESchema Schematic File Version 2  date Wed 10 Oct 2012 11:02:53 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "6 oct 2012"
+Date "10 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2136,4 +2136,5 @@ Connection ~ 8550 3450
 Connection ~ 13550 1950
 Connection ~ 13550 1950
 Connection ~ 13550 2350
+Connection ~ 6300 7400
 $EndSCHEMATC

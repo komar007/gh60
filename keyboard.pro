@@ -1,4 +1,4 @@
-update=Tue 02 Oct 2012 08:07:47 PM CEST
+update=Thu 11 Oct 2012 11:15:08 PM CEST
 version=1
 last_client=cvpcb
 [general]
@@ -44,6 +44,7 @@ MSegLar=150
 LibName1=MX1A
 LibName2=HIROSE_USB
 LibName3=diode
+LibName4=oupiin_usb_mini_3515
 LibDir=lib
 [cvpcb]
 version=1
