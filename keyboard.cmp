@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 11 Oct 2012 11:15:17 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Mon 15 Oct 2012 06:36:02 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -578,7 +578,7 @@ BeginCmp
 TimeStamp = /50440A9A;
 Reference = S0;
 ValeurCmp = DTSM-6;
-IdModule  = switch-tact-DTSM-6;
+IdModule  = DTSJW-66N;
 EndCmp
 
 BeginCmp

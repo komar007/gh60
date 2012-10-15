@@ -1,6 +1,6 @@
-update=Thu 11 Oct 2012 11:15:08 PM CEST
+update=Mon 15 Oct 2012 07:47:24 PM CEST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -23,6 +23,11 @@ LibName5=dtsjw
 LibName6=oupiin_usb
 LibName7=device
 LibName8=conn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -37,17 +42,24 @@ TxtModH=600
 TxtModW=120
 VEgarde=100
 DrawLar=150
-EdgeLar=150
+EdgeLar=39
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
-LibName1=MX1A
-LibName2=HIROSE_USB
-LibName3=diode
-LibName4=oupiin_usb_mini_3515
 LibDir=lib
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+LibName12=MX1A
+LibName13=HIROSE_USB
+LibName14=oupiin_usb_mini_3515
+LibName15=DTSJW-66N
+LibName16=molex-usb

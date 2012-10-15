@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Oct 2012 11:02:53 PM CEST
+EESchema Schematic File Version 2  date Mon 15 Oct 2012 06:32:19 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "10 oct 2012"
+Date "15 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -61,8 +61,11 @@ U 1 1 4F08252F
 P 2150 5400
 F 0 "J1" H 2075 5700 60  0000 C CNN
 F 1 "MINI" H 2100 5050 60  0001 C CNN
-F 4 "Molex" H 2150 5400 60  0001 C CNN "Vendor"
-F 5 "0548190572" H 2150 5400 60  0001 C CNN "Product"
+F 3 "http://www.jm.pl/karty/X3515-1XXXXX.pdf" H 2150 5400 60  0001 C CNN
+F 4 "Wieson" H 2150 5400 60  0001 C CNN "Vendor"
+F 5 "3515" H 2150 5400 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2150 5400 60  0001 C CNN "Supplier"
+F 7 "USBMINI-B05" H 2150 5400 60  0001 C CNN "Supplier Symbol"
 	1    2150 5400
 	1    0    0    -1  
 $EndComp
@@ -89,10 +92,12 @@ L ASX4 X1
 U 1 1 4F081730
 P 3000 3550
 F 0 "X1" H 3000 3350 60  0000 C CNN
-F 1 "ASX4" H 3000 3750 60  0000 C CNN
-F 3 "http://www.jm.pl/karty/ASX4-16M-5E160F0.pdf" H 3000 3550 60  0001 C CNN
-F 4 "AKER" H 3000 3550 60  0001 C CNN "Vendor"
-F 5 "ASX4-16M-5E160F0" H 3000 3550 60  0001 C CNN "Product"
+F 1 "ASX3F" H 3000 3750 60  0000 C CNN
+F 3 "http://www.jm.pl/karty/ASX3F.pdf" H 3000 3550 60  0001 C CNN
+F 4 "ANSEN" H 3000 3550 60  0001 C CNN "Vendor"
+F 5 "ASX3F" H 3000 3550 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 3000 3550 60  0001 C CNN "Supplier"
+F 7 "16.0000M-ASX4-3C070D5" H 3000 3550 60  0001 C CNN "Supplier Symbol"
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
@@ -427,6 +432,8 @@ F 2 "TQFP44" H 5250 2475 50  0001 C CNN
 F 3 "http://www.atmel.com/dyn/resources/prod_documents/doc7766.pdf" H 4750 4450 60  0001 C CNN
 F 4 "Atmel" H 4750 4450 60  0001 C CNN "Vendor"
 F 5 "ATmega32U4" H 4750 4450 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 4750 4450 60  0001 C CNN "Supplier"
+F 7 "ATMEGA 32U4-AU" H 4750 4450 60  0001 C CNN "Supplier Symbol"
 	1    4750 4450
 	1    0    0    -1  
 $EndComp
@@ -503,6 +510,11 @@ P 2000 2750
 F 0 "S0" V 1715 2650 50  0000 L BNN
 F 1 "DTSM-6" V 1815 2875 50  0000 L BNN
 F 2 "switch-tact-DTSM-6" H 2000 2900 50  0001 C CNN
+F 3 "http://www.jm.pl/karty/DTSJW.pdf" H 2000 2750 60  0001 C CNN
+F 4 "Diptronics" H 2000 2750 60  0001 C CNN "Vendor"
+F 5 "DTSJW-66" H 2000 2750 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2000 2750 60  0001 C CNN "Supplier"
+F 7 "DTSJW-66 N" H 2000 2750 60  0001 C CNN "Supplier Symbol"
 	1    2000 2750
 	0    1    1    0   
 $EndComp
