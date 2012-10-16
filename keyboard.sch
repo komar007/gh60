@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Oct 2012 03:57:20 PM CEST
+EESchema Schematic File Version 2  date Tue 16 Oct 2012 11:41:25 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -150,11 +150,16 @@ F 1 "VCC" H 5700 1150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R R5
 U 1 1 4ED6BA73
 P 5700 1400
-F 0 "R9" V 5780 1400 50  0000 C CNN
+F 0 "R5" V 5780 1400 50  0000 C CNN
 F 1 "10k" V 5700 1400 50  0000 C CNN
+F 3 "http://www.jm.pl/karty/RC0805.pdf" H 6050 6450 60  0001 C CNN
+F 4 "Yageo" H 6050 6450 60  0001 C CNN "Vendor"
+F 5 "RC0805" H 6050 6450 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 6050 6450 60  0001 C CNN "Supplier"
+F 7 "RC05-10K 5% 0805" H 6050 6450 60  0001 C CNN "Supplier Symbol"
 	1    5700 1400
 	1    0    0    -1  
 $EndComp
@@ -173,6 +178,11 @@ U 1 1 4ED6AF08
 P 6050 6450
 F 0 "R3" V 6130 6450 50  0000 C CNN
 F 1 "10k" V 6050 6450 50  0000 C CNN
+F 3 "http://www.jm.pl/karty/RC0805.pdf" H 6050 6450 60  0001 C CNN
+F 4 "Yageo" H 6050 6450 60  0001 C CNN "Vendor"
+F 5 "RC0805" H 6050 6450 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 6050 6450 60  0001 C CNN "Supplier"
+F 7 "RC05-10K 5% 0805" H 6050 6450 60  0001 C CNN "Supplier Symbol"
 	1    6050 6450
 	1    0    0    -1  
 $EndComp
@@ -195,11 +205,16 @@ F 1 "GND" H 3350 6830 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C3
 U 1 1 4ED6A5CC
 P 3350 6500
-F 0 "C6" H 3400 6600 50  0000 L CNN
+F 0 "C3" H 3400 6600 50  0000 L CNN
 F 1 "1u" H 3400 6400 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCX7R.pdf" H 3350 6500 60  0001 C CNN
+F 4 "Hitano" H 3350 6500 60  0001 C CNN "Vendor"
+F 5 "CCC X7R" H 3350 6500 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 3350 6500 60  0001 C CNN "Supplier"
+F 7 "CCC X7R 1,0 UF 0805 K" H 3350 6500 60  0001 C CNN "Supplier Symbol"
 	1    3350 6500
 	1    0    0    -1  
 $EndComp
@@ -218,6 +233,11 @@ U 1 1 4ED6A3B8
 P 2950 5400
 F 0 "R2" V 3050 5300 50  0000 C CNN
 F 1 "22" V 2950 5400 50  0000 C CNN
+F 3 "http://www.jm.pl/karty/RC0805.pdf" H 2950 5300 60  0001 C CNN
+F 4 "Yageo" H 2950 5300 60  0001 C CNN "Vendor"
+F 5 "RC0805" H 2950 5300 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2950 5300 60  0001 C CNN "Supplier"
+F 7 "RC05-22R 5% 0805" H 2950 5300 60  0001 C CNN "Supplier Symbol"
 	1    2950 5400
 	0    1    1    0   
 $EndComp
@@ -227,6 +247,11 @@ U 1 1 4ED6A3B0
 P 2950 5300
 F 0 "R1" V 2850 5200 50  0000 C CNN
 F 1 "22" V 2950 5300 50  0000 C CNN
+F 3 "http://www.jm.pl/karty/RC0805.pdf" H 2950 5300 60  0001 C CNN
+F 4 "Yageo" H 2950 5300 60  0001 C CNN "Vendor"
+F 5 "RC0805" H 2950 5300 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2950 5300 60  0001 C CNN "Supplier"
+F 7 "RC05-22R 5% 0805" H 2950 5300 60  0001 C CNN "Supplier Symbol"
 	1    2950 5300
 	0    1    1    0   
 $EndComp
@@ -297,20 +322,30 @@ F 1 "VCC" H 1550 1150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C C7
 U 1 1 4EB2CECC
 P 2450 1600
-F 0 "C9" H 2500 1700 50  0000 L CNN
+F 0 "C7" H 2500 1700 50  0000 L CNN
 F 1 "100n" H 2500 1500 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    2450 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C C6
 U 1 1 4EB2CECA
 P 2150 1600
-F 0 "C8" H 2200 1700 50  0000 L CNN
+F 0 "C6" H 2200 1700 50  0000 L CNN
 F 1 "100n" H 2200 1500 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    2150 1600
 	1    0    0    -1  
 $EndComp
@@ -320,6 +355,11 @@ U 1 1 4EB2CEC9
 P 1850 1600
 F 0 "C5" H 1900 1700 50  0000 L CNN
 F 1 "100n" H 1900 1500 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    1850 1600
 	1    0    0    -1  
 $EndComp
@@ -329,6 +369,11 @@ U 1 1 4EB2CEC5
 P 1550 1600
 F 0 "C4" H 1600 1700 50  0000 L CNN
 F 1 "100n" H 1600 1500 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    1550 1600
 	1    0    0    -1  
 $EndComp
@@ -396,20 +441,30 @@ F 1 "GND" H 3450 4230 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C C2
 U 1 1 4E99B644
 P 3450 3900
-F 0 "C7" H 3500 4000 50  0000 L CNN
+F 0 "C2" H 3500 4000 50  0000 L CNN
 F 1 "22p" H 3500 3800 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCNPO.pdf" H 2550 3900 60  0001 C CNN
+F 4 "Hitano" H 2550 3900 60  0001 C CNN "Vendor"
+F 5 "CCC NPO" H 2550 3900 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2550 3900 60  0001 C CNN "Supplier"
+F 7 "CCC NPO 22 PF 0805 J" H 2550 3900 60  0001 C CNN "Supplier Symbol"
 	1    3450 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C C1
 U 1 1 4E99B63E
 P 2550 3900
-F 0 "C3" H 2600 4000 50  0000 L CNN
+F 0 "C1" H 2600 4000 50  0000 L CNN
 F 1 "22p" H 2600 3800 50  0000 L CNN
+F 3 "http://www.jm.pl/karty/CCCNPO.pdf" H 2550 3900 60  0001 C CNN
+F 4 "Hitano" H 2550 3900 60  0001 C CNN "Vendor"
+F 5 "CCC NPO" H 2550 3900 60  0001 C CNN "Product"
+F 6 "JM Elektronik" H 2550 3900 60  0001 C CNN "Supplier"
+F 7 "CCC NPO 22 PF 0805 J" H 2550 3900 60  0001 C CNN "Supplier Symbol"
 	1    2550 3900
 	1    0    0    -1  
 $EndComp

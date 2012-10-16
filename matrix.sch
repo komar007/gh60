@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Oct 2012 03:57:20 PM CEST
+EESchema Schematic File Version 2  date Tue 16 Oct 2012 11:41:25 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -814,7 +814,7 @@ L R R4
 U 1 1 5043A0D0
 P 13250 2850
 F 0 "R4" V 13330 2850 50  0000 C CNN
-F 1 "R" V 13250 2850 50  0000 C CNN
+F 1 "300" V 13250 2850 50  0000 C CNN
 	1    13250 2850
 	1    0    0    -1  
 $EndComp
