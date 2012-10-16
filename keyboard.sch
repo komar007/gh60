@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 15 Oct 2012 06:32:19 PM CEST
+EESchema Schematic File Version 2  date Tue 16 Oct 2012 11:18:59 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "15 oct 2012"
+Date "16 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -61,11 +61,11 @@ U 1 1 4F08252F
 P 2150 5400
 F 0 "J1" H 2075 5700 60  0000 C CNN
 F 1 "MINI" H 2100 5050 60  0001 C CNN
-F 3 "http://www.jm.pl/karty/X3515-1XXXXX.pdf" H 2150 5400 60  0001 C CNN
-F 4 "Wieson" H 2150 5400 60  0001 C CNN "Vendor"
-F 5 "3515" H 2150 5400 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2150 5400 60  0001 C CNN "Supplier"
-F 7 "USBMINI-B05" H 2150 5400 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/af7e127923dc7f74ac659db082bbc882/mx54819.pdf" H 2150 5400 60  0001 C CNN
+F 4 "Molex" H 2150 5400 60  0001 C CNN "Vendor"
+F 5 "0548190572" H 2150 5400 60  0001 C CNN "Product"
+F 6 "TME" H 2150 5400 60  0001 C CNN "Supplier"
+F 7 "MX-54819-0572" H 2150 5400 60  0001 C CNN "Supplier Symbol"
 	1    2150 5400
 	1    0    0    -1  
 $EndComp
@@ -131,15 +131,6 @@ Entry Wire Line
 	6300 1650 6400 1750
 Entry Wire Line
 	6300 1550 6400 1650
-$Comp
-L CONN_3X2 P1
-U 1 1 4ED6BBAD
-P 7400 1800
-F 0 "P1" H 7400 2050 50  0000 C CNN
-F 1 "CONN_3X2" V 7400 1850 40  0000 C CNN
-	1    7400 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR07
 U 1 1 4ED6BB30
@@ -885,4 +876,58 @@ Wire Wire Line
 	7750 5250 8150 5250
 Text Label 6850 3400 0    60   ~ 0
 col14
+$Comp
+L CONN_1 P1
+U 1 1 507D1E9B
+P 7150 1650
+F 0 "P1" H 7230 1650 40  0000 L CNN
+F 1 "CONN_1" H 7150 1705 30  0001 C CNN
+	1    7150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 507D1EE6
+P 7150 1750
+F 0 "P3" H 7230 1750 40  0000 L CNN
+F 1 "CONN_1" H 7150 1805 30  0001 C CNN
+	1    7150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 507D1F31
+P 7150 1850
+F 0 "P5" H 7230 1850 40  0000 L CNN
+F 1 "CONN_1" H 7150 1905 30  0001 C CNN
+	1    7150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 507D1F7C
+P 7650 1650
+F 0 "P2" H 7730 1650 40  0000 L CNN
+F 1 "CONN_1" H 7650 1705 30  0001 C CNN
+	1    7650 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 507D1FC7
+P 7650 1750
+F 0 "P4" H 7730 1750 40  0000 L CNN
+F 1 "CONN_1" H 7650 1805 30  0001 C CNN
+	1    7650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 507D2012
+P 7650 1850
+F 0 "P6" H 7730 1850 40  0000 L CNN
+F 1 "CONN_1" H 7650 1905 30  0001 C CNN
+	1    7650 1850
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

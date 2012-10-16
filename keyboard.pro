@@ -1,4 +1,4 @@
-update=Mon 15 Oct 2012 07:47:24 PM CEST
+update=Tue 16 Oct 2012 12:45:51 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -44,7 +44,7 @@ VEgarde=100
 DrawLar=150
 EdgeLar=39
 TxtLar=120
-MSegLar=150
+MSegLar=79
 [pcbnew/libraries]
 LibDir=lib
 LibName1=sockets
@@ -62,4 +62,5 @@ LibName12=MX1A
 LibName13=HIROSE_USB
 LibName14=oupiin_usb_mini_3515
 LibName15=DTSJW-66N
-LibName16=molex-usb
+LibName16=ASX3F
+LibName17=molex-usb
