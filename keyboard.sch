@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Oct 2012 11:41:25 PM CEST
+EESchema Schematic File Version 2  date Wed 17 Oct 2012 12:45:27 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "16 oct 2012"
+Date "17 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -93,11 +93,10 @@ U 1 1 4F081730
 P 3000 3550
 F 0 "X1" H 3000 3350 60  0000 C CNN
 F 1 "ASX3F" H 3000 3750 60  0000 C CNN
-F 3 "http://www.jm.pl/karty/ASX3F.pdf" H 3000 3550 60  0001 C CNN
-F 4 "ANSEN" H 3000 3550 60  0001 C CNN "Vendor"
-F 5 "ASX3F" H 3000 3550 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 3000 3550 60  0001 C CNN "Supplier"
-F 7 "16.0000M-ASX4-3C070D5" H 3000 3550 60  0001 C CNN "Supplier Symbol"
+F 4 "YIC" H 3000 3550 60  0001 C CNN "Vendor"
+F 5 "16.00M-SMDXT324" H 3000 3550 60  0001 C CNN "Product"
+F 6 "TME" H 3000 3550 60  0001 C CNN "Supplier"
+F 7 "16.00M-SMDXT324" H 3000 3550 60  0001 C CNN "Supplier Symbol"
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
@@ -155,11 +154,11 @@ U 1 1 4ED6BA73
 P 5700 1400
 F 0 "R5" V 5780 1400 50  0000 C CNN
 F 1 "10k" V 5700 1400 50  0000 C CNN
-F 3 "http://www.jm.pl/karty/RC0805.pdf" H 6050 6450 60  0001 C CNN
-F 4 "Yageo" H 6050 6450 60  0001 C CNN "Vendor"
-F 5 "RC0805" H 6050 6450 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 6050 6450 60  0001 C CNN "Supplier"
-F 7 "RC05-10K 5% 0805" H 6050 6450 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 6050 6450 60  0001 C CNN
+F 4 "Vishay" H 6050 6450 60  0001 C CNN "Vendor"
+F 5 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Product"
+F 6 "TME" H 6050 6450 60  0001 C CNN "Supplier"
+F 7 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Supplier Symbol"
 	1    5700 1400
 	1    0    0    -1  
 $EndComp
@@ -178,11 +177,11 @@ U 1 1 4ED6AF08
 P 6050 6450
 F 0 "R3" V 6130 6450 50  0000 C CNN
 F 1 "10k" V 6050 6450 50  0000 C CNN
-F 3 "http://www.jm.pl/karty/RC0805.pdf" H 6050 6450 60  0001 C CNN
-F 4 "Yageo" H 6050 6450 60  0001 C CNN "Vendor"
-F 5 "RC0805" H 6050 6450 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 6050 6450 60  0001 C CNN "Supplier"
-F 7 "RC05-10K 5% 0805" H 6050 6450 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 6050 6450 60  0001 C CNN
+F 4 "Vishay" H 6050 6450 60  0001 C CNN "Vendor"
+F 5 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Product"
+F 6 "TME" H 6050 6450 60  0001 C CNN "Supplier"
+F 7 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Supplier Symbol"
 	1    6050 6450
 	1    0    0    -1  
 $EndComp
@@ -211,10 +210,10 @@ P 3350 6500
 F 0 "C3" H 3400 6600 50  0000 L CNN
 F 1 "1u" H 3400 6400 50  0000 L CNN
 F 3 "http://www.jm.pl/karty/CCCX7R.pdf" H 3350 6500 60  0001 C CNN
-F 4 "Hitano" H 3350 6500 60  0001 C CNN "Vendor"
-F 5 "CCC X7R" H 3350 6500 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 3350 6500 60  0001 C CNN "Supplier"
-F 7 "CCC X7R 1,0 UF 0805 K" H 3350 6500 60  0001 C CNN "Supplier Symbol"
+F 4 "Samsung" H 3350 6500 60  0001 C CNN "Vendor"
+F 5 "CL21B105KAFNNNE" H 3350 6500 60  0001 C CNN "Product"
+F 6 "TME" H 3350 6500 60  0001 C CNN "Supplier"
+F 7 "CL21B105KAFNNNE" H 3350 6500 60  0001 C CNN "Supplier Symbol"
 	1    3350 6500
 	1    0    0    -1  
 $EndComp
@@ -233,11 +232,11 @@ U 1 1 4ED6A3B8
 P 2950 5400
 F 0 "R2" V 3050 5300 50  0000 C CNN
 F 1 "22" V 2950 5400 50  0000 C CNN
-F 3 "http://www.jm.pl/karty/RC0805.pdf" H 2950 5300 60  0001 C CNN
-F 4 "Yageo" H 2950 5300 60  0001 C CNN "Vendor"
-F 5 "RC0805" H 2950 5300 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2950 5300 60  0001 C CNN "Supplier"
-F 7 "RC05-22R 5% 0805" H 2950 5300 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 2950 5300 60  0001 C CNN
+F 4 "Vishay" H 2950 5300 60  0001 C CNN "Vendor"
+F 5 "CRCW080522R0JNTABC" H 2950 5300 60  0001 C CNN "Product"
+F 6 "TME" H 2950 5300 60  0001 C CNN "Supplier"
+F 7 "CRCW080522R0JNTABC" H 2950 5300 60  0001 C CNN "Supplier Symbol"
 	1    2950 5400
 	0    1    1    0   
 $EndComp
@@ -247,11 +246,11 @@ U 1 1 4ED6A3B0
 P 2950 5300
 F 0 "R1" V 2850 5200 50  0000 C CNN
 F 1 "22" V 2950 5300 50  0000 C CNN
-F 3 "http://www.jm.pl/karty/RC0805.pdf" H 2950 5300 60  0001 C CNN
-F 4 "Yageo" H 2950 5300 60  0001 C CNN "Vendor"
-F 5 "RC0805" H 2950 5300 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2950 5300 60  0001 C CNN "Supplier"
-F 7 "RC05-22R 5% 0805" H 2950 5300 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 2950 5300 60  0001 C CNN
+F 4 "Vishay" H 2950 5300 60  0001 C CNN "Vendor"
+F 5 "CRCW080522R0JNTABC" H 2950 5300 60  0001 C CNN "Product"
+F 6 "TME" H 2950 5300 60  0001 C CNN "Supplier"
+F 7 "CRCW080522R0JNTABC" H 2950 5300 60  0001 C CNN "Supplier Symbol"
 	1    2950 5300
 	0    1    1    0   
 $EndComp
@@ -327,11 +326,11 @@ U 1 1 4EB2CECC
 P 2450 1600
 F 0 "C7" H 2500 1700 50  0000 L CNN
 F 1 "100n" H 2500 1500 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
-F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
-F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
-F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Samsung" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Product"
+F 6 "TME" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    2450 1600
 	1    0    0    -1  
 $EndComp
@@ -341,11 +340,11 @@ U 1 1 4EB2CECA
 P 2150 1600
 F 0 "C6" H 2200 1700 50  0000 L CNN
 F 1 "100n" H 2200 1500 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
-F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
-F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
-F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Samsung" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Product"
+F 6 "TME" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    2150 1600
 	1    0    0    -1  
 $EndComp
@@ -355,11 +354,11 @@ U 1 1 4EB2CEC9
 P 1850 1600
 F 0 "C5" H 1900 1700 50  0000 L CNN
 F 1 "100n" H 1900 1500 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
-F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
-F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
-F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Samsung" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Product"
+F 6 "TME" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    1850 1600
 	1    0    0    -1  
 $EndComp
@@ -369,11 +368,11 @@ U 1 1 4EB2CEC5
 P 1550 1600
 F 0 "C4" H 1600 1700 50  0000 L CNN
 F 1 "100n" H 1600 1500 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCY5V.pdf" H 1550 1600 60  0001 C CNN
-F 4 "Hitano" H 1550 1600 60  0001 C CNN "Vendor"
-F 5 "CCC Y5V" H 1550 1600 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 1550 1600 60  0001 C CNN "Supplier"
-F 7 "CCC Y5V 100 NF 0805 Z" H 1550 1600 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 1550 1600 60  0001 C CNN
+F 4 "Samsung" H 1550 1600 60  0001 C CNN "Vendor"
+F 5 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Product"
+F 6 "TME" H 1550 1600 60  0001 C CNN "Supplier"
+F 7 "CL21B104KBCNNNC" H 1550 1600 60  0001 C CNN "Supplier Symbol"
 	1    1550 1600
 	1    0    0    -1  
 $EndComp
@@ -446,11 +445,11 @@ U 1 1 4E99B644
 P 3450 3900
 F 0 "C2" H 3500 4000 50  0000 L CNN
 F 1 "22p" H 3500 3800 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCNPO.pdf" H 2550 3900 60  0001 C CNN
-F 4 "Hitano" H 2550 3900 60  0001 C CNN "Vendor"
-F 5 "CCC NPO" H 2550 3900 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2550 3900 60  0001 C CNN "Supplier"
-F 7 "CCC NPO 22 PF 0805 J" H 2550 3900 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 2550 3900 60  0001 C CNN
+F 4 "Samsung" H 2550 3900 60  0001 C CNN "Vendor"
+F 5 "CL21C220JBANNNC" H 2550 3900 60  0001 C CNN "Product"
+F 6 "TME" H 2550 3900 60  0001 C CNN "Supplier"
+F 7 "CL21C220JBANNNC" H 2550 3900 60  0001 C CNN "Supplier Symbol"
 	1    3450 3900
 	1    0    0    -1  
 $EndComp
@@ -460,11 +459,11 @@ U 1 1 4E99B63E
 P 2550 3900
 F 0 "C1" H 2600 4000 50  0000 L CNN
 F 1 "22p" H 2600 3800 50  0000 L CNN
-F 3 "http://www.jm.pl/karty/CCCNPO.pdf" H 2550 3900 60  0001 C CNN
-F 4 "Hitano" H 2550 3900 60  0001 C CNN "Vendor"
-F 5 "CCC NPO" H 2550 3900 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2550 3900 60  0001 C CNN "Supplier"
-F 7 "CCC NPO 22 PF 0805 J" H 2550 3900 60  0001 C CNN "Supplier Symbol"
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 2550 3900 60  0001 C CNN
+F 4 "Samsung" H 2550 3900 60  0001 C CNN "Vendor"
+F 5 "CL21C220JBANNNC" H 2550 3900 60  0001 C CNN "Product"
+F 6 "TME" H 2550 3900 60  0001 C CNN "Supplier"
+F 7 "CL21C220JBANNNC" H 2550 3900 60  0001 C CNN "Supplier Symbol"
 	1    2550 3900
 	1    0    0    -1  
 $EndComp
@@ -477,9 +476,9 @@ F 1 "ATMEGA32U4" H 5000 2550 50  0000 L BNN
 F 2 "TQFP44" H 5250 2475 50  0001 C CNN
 F 3 "http://www.atmel.com/dyn/resources/prod_documents/doc7766.pdf" H 4750 4450 60  0001 C CNN
 F 4 "Atmel" H 4750 4450 60  0001 C CNN "Vendor"
-F 5 "ATmega32U4" H 4750 4450 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 4750 4450 60  0001 C CNN "Supplier"
-F 7 "ATMEGA 32U4-AU" H 4750 4450 60  0001 C CNN "Supplier Symbol"
+F 5 "ATmega32U4-AU" H 4750 4450 60  0001 C CNN "Product"
+F 6 "DigiKey" H 4750 4450 60  0001 C CNN "Supplier"
+F 7 "ATMEGA32U4-AU-ND" H 4750 4450 60  0001 C CNN "Supplier Symbol"
 	1    4750 4450
 	1    0    0    -1  
 $EndComp
@@ -557,10 +556,10 @@ F 0 "S0" V 1715 2650 50  0000 L BNN
 F 1 "DTSM-6" V 1815 2875 50  0000 L BNN
 F 2 "switch-tact-DTSM-6" H 2000 2900 50  0001 C CNN
 F 3 "http://www.jm.pl/karty/DTSJW.pdf" H 2000 2750 60  0001 C CNN
-F 4 "Diptronics" H 2000 2750 60  0001 C CNN "Vendor"
-F 5 "DTSJW-66" H 2000 2750 60  0001 C CNN "Product"
-F 6 "JM Elektronik" H 2000 2750 60  0001 C CNN "Supplier"
-F 7 "DTSJW-66 N" H 2000 2750 60  0001 C CNN "Supplier Symbol"
+F 4 "Ninigi" H 2000 2750 60  0001 C CNN "Vendor"
+F 5 "TACTB-64K-F" H 2000 2750 60  0001 C CNN "Product"
+F 6 "TME" H 2000 2750 60  0001 C CNN "Supplier"
+F 7 "TACTB-64K-F" H 2000 2750 60  0001 C CNN "Supplier Symbol"
 	1    2000 2750
 	0    1    1    0   
 $EndComp

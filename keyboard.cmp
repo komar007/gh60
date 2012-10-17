@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 16 Oct 2012 11:33:24 PM CEST
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 16 Oct 2012 11:52:27 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -536,7 +536,7 @@ BeginCmp
 TimeStamp = /507D1E9B;
 Reference = P1;
 ValeurCmp = CONN_1;
-IdModule  = 2248_6;
+IdModule  = $noname;
 EndCmp
 
 BeginCmp
