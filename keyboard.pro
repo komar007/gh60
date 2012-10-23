@@ -1,4 +1,4 @@
-update=Tue 16 Oct 2012 03:30:48 PM CEST
+update=Tue 23 Oct 2012 06:57:43 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,20 +31,19 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrlX=320
-PadDimH=320
-PadDimV=320
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=47
-DrawLar=150
-EdgeLar=39
-TxtLar=120
-MSegLar=59
+PadDrill=0.8128
+PadSizeH=0.8128
+PadSizeV=0.8128
+PcbTextSizeV=2.032
+PcbTextSizeH=1.524
+PcbTextThickness=0.3048
+ModuleTextSizeV=1.524
+ModuleTextSizeH=1.524
+ModuleTextSizeThickness=0.3048
+SolderMaskClearance=0.11938
+DrawSegmentWidth=0.381
+BoardOutlineThickness=0.09906
+ModuleOutlineThickness=0.14986
 [pcbnew/libraries]
 LibDir=lib
 LibName1=MX1A
@@ -55,3 +54,4 @@ LibName5=ASX3F
 LibName6=molex-usb
 LibName7=TQFP44
 LibName8=SM0805
+LibName9=oshw_logo

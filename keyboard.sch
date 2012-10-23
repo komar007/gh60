@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 23 Oct 2012 02:58:00 PM CEST
+EESchema Schematic File Version 2  date Tue 23 Oct 2012 10:59:30 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -8,13 +8,13 @@ LIBS:oupiin_usb
 LIBS:device
 LIBS:conn
 LIBS:keyboard-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "17 oct 2012"
+Date "23 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -689,6 +689,76 @@ Text Label 7800 5250 0    60   ~ 0
 caps
 Entry Wire Line
 	7650 5350 7750 5250
+Text Label 6850 3400 0    60   ~ 0
+col14
+$Comp
+L CONN_1 P1
+U 1 1 507D1E9B
+P 7150 1650
+F 0 "P1" H 7230 1650 40  0000 L CNN
+F 1 "CONN_1" H 7150 1705 30  0001 C CNN
+	1    7150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 507D1EE6
+P 7150 1750
+F 0 "P3" H 7230 1750 40  0000 L CNN
+F 1 "CONN_1" H 7150 1805 30  0001 C CNN
+	1    7150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 507D1F31
+P 7150 1850
+F 0 "P5" H 7230 1850 40  0000 L CNN
+F 1 "CONN_1" H 7150 1905 30  0001 C CNN
+	1    7150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 507D1F7C
+P 7650 1650
+F 0 "P2" H 7730 1650 40  0000 L CNN
+F 1 "CONN_1" H 7650 1705 30  0001 C CNN
+	1    7650 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 507D1FC7
+P 7650 1750
+F 0 "P4" H 7730 1750 40  0000 L CNN
+F 1 "CONN_1" H 7650 1805 30  0001 C CNN
+	1    7650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 507D2012
+P 7650 1850
+F 0 "P6" H 7730 1850 40  0000 L CNN
+F 1 "CONN_1" H 7650 1905 30  0001 C CNN
+	1    7650 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C8
+U 1 1 5086A760
+P 1250 1600
+F 0 "C8" H 1300 1700 50  0000 L CNN
+F 1 "1u" H 1300 1500 50  0000 L CNN
+F 3 "http://www.tme.eu/pl/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf" H 1250 1600 60  0001 C CNN
+F 4 "Samsung" H 1250 1600 60  0001 C CNN "Vendor"
+F 5 "CL21B104KBCNNNC" H 1250 1600 60  0001 C CNN "Product"
+F 6 "TME" H 1250 1600 60  0001 C CNN "Supplier"
+F 7 "CL21B104KBCNNNC" H 1250 1600 60  0001 C CNN "Supplier Symbol"
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	8150 4200 7750 4200
 Wire Wire Line
@@ -807,14 +877,14 @@ Wire Wire Line
 Wire Wire Line
 	2450 1950 2450 1800
 Wire Wire Line
-	1550 1950 2450 1950
+	1250 1950 2450 1950
 Connection ~ 1850 1200
 Wire Wire Line
 	1850 1200 1850 1400
 Wire Wire Line
 	2450 1200 2450 1400
 Wire Wire Line
-	1550 1200 2450 1200
+	1250 1200 2450 1200
 Wire Wire Line
 	4800 6450 4800 6900
 Wire Wire Line
@@ -928,60 +998,8 @@ Wire Wire Line
 	8150 4800 7750 4800
 Wire Wire Line
 	7750 5250 8150 5250
-Text Label 6850 3400 0    60   ~ 0
-col14
-$Comp
-L CONN_1 P1
-U 1 1 507D1E9B
-P 7150 1650
-F 0 "P1" H 7230 1650 40  0000 L CNN
-F 1 "CONN_1" H 7150 1705 30  0001 C CNN
-	1    7150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P3
-U 1 1 507D1EE6
-P 7150 1750
-F 0 "P3" H 7230 1750 40  0000 L CNN
-F 1 "CONN_1" H 7150 1805 30  0001 C CNN
-	1    7150 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P5
-U 1 1 507D1F31
-P 7150 1850
-F 0 "P5" H 7230 1850 40  0000 L CNN
-F 1 "CONN_1" H 7150 1905 30  0001 C CNN
-	1    7150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P2
-U 1 1 507D1F7C
-P 7650 1650
-F 0 "P2" H 7730 1650 40  0000 L CNN
-F 1 "CONN_1" H 7650 1705 30  0001 C CNN
-	1    7650 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P4
-U 1 1 507D1FC7
-P 7650 1750
-F 0 "P4" H 7730 1750 40  0000 L CNN
-F 1 "CONN_1" H 7650 1805 30  0001 C CNN
-	1    7650 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_1 P6
-U 1 1 507D2012
-P 7650 1850
-F 0 "P6" H 7730 1850 40  0000 L CNN
-F 1 "CONN_1" H 7650 1905 30  0001 C CNN
-	1    7650 1850
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	1250 1200 1250 1400
+Wire Wire Line
+	1250 1800 1250 1950
 $EndSCHEMATC
