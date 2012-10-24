@@ -1,4 +1,4 @@
-update=Tue 23 Oct 2012 06:57:43 PM CEST
+update=Wed 24 Oct 2012 07:58:57 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=0.8128
-PadSizeH=0.8128
-PadSizeV=0.8128
+PadDrill=0.9
+PadSizeH=1.5
+PadSizeV=1.5
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -55,3 +55,5 @@ LibName6=molex-usb
 LibName7=TQFP44
 LibName8=SM0805
 LibName9=oshw_logo
+LibName10=pad
+LibName11=gh_logo
