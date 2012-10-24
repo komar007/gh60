@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 23 Oct 2012 10:59:30 PM CEST
+EESchema Schematic File Version 2  date Wed 24 Oct 2012 02:19:07 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "23 oct 2012"
+Date "24 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2375,4 +2375,5 @@ Connection ~ 10700 4950
 Wire Wire Line
 	11100 5650 11150 5650
 Connection ~ 11150 5650
+Connection ~ 11150 6850
 $EndSCHEMATC

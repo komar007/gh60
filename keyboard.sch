@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 23 Oct 2012 10:59:30 PM CEST
+EESchema Schematic File Version 2  date Wed 24 Oct 2012 02:19:07 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "23 oct 2012"
+Date "24 oct 2012"
 Rev ""
 Comp "komar"
 Comment1 ""
