@@ -1,0 +1,23 @@
+PCBNEW-LibModule-V1  Wed 24 Oct 2012 04:24:39 PM CEST
+# encoding utf-8
+Units mm
+$INDEX
+pad
+$EndINDEX
+$MODULE pad
+Po 0 0 0 15 5087FA0B 00000000 ~~
+Li pad
+Sc 0
+AR /507D1E9B
+Op 0 0 0
+T0 0 1.905 0.9 0.9 0 0.15 N V 21 N "P1"
+T1 0.762 -2.3495 0.9 0.9 0 0.15 N V 21 N "CONN_1"
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 1 "/Matrix/col14"
+Po 0 0
+$EndPAD
+$EndMODULE pad
+$EndLIBRARY
