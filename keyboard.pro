@@ -1,4 +1,4 @@
-update=Thu 25 Oct 2012 11:40:00 PM CEST
+update=Fri 26 Oct 2012 11:21:23 AM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -56,5 +56,5 @@ LibName7=TQFP44
 LibName8=SM0805
 LibName9=oshw_logo
 LibName10=pad
-LibName11=gh_logo
-LibName12=gh60_logo
+LibName11=gh60
+LibName12=/home/komar/temp/gh60
