@@ -1,4 +1,4 @@
-update=Fri 26 Oct 2012 11:21:23 AM CEST
+update=Mon 29 Oct 2012 03:21:33 PM CET
 version=1
 last_client=pcbnew
 [general]
@@ -54,7 +54,6 @@ LibName5=ASX3F
 LibName6=molex-usb
 LibName7=TQFP44
 LibName8=SM0805
-LibName9=oshw_logo
-LibName10=pad
-LibName11=gh60
-LibName12=/home/komar/temp/gh60
+LibName9=pad
+LibName10=oshw
+LibName11=oshw_text
