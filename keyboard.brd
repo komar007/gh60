@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 22 Jan 2013 11:01:49 PM CET
+PCBNEW-BOARD Version 2 date Mon 11 Feb 2013 11:32:26 AM CET
 
 # Created by Pcbnew(2012-oct-18)-testing
 
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title ""
-Date "22 jan 2013"
+Date "11 feb 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13184,7 +13184,7 @@ Dl 0.97028 0.03302
 Dl 0.97028 0.03302
 $EndMODULE FIDUCIAL
 $TEXTPCB
-Te "rev. A"
+Te "rev. B"
 Po 217.932 148.717 1.524 2.032 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
