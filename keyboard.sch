@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 27 Oct 2012 12:20:17 AM CEST
+EESchema Schematic File Version 2  date Wed 06 Mar 2013 01:59:58 PM CET
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "24 oct 2012"
+Date "6 mar 2013"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -165,24 +165,24 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 4ED6AF1D
-P 6050 6900
-F 0 "#PWR09" H 6050 6900 30  0001 C CNN
-F 1 "GND" H 6050 6830 30  0001 C CNN
-	1    6050 6900
+P 6500 7200
+F 0 "#PWR09" H 6500 7200 30  0001 C CNN
+F 1 "GND" H 6500 7130 30  0001 C CNN
+	1    6500 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R3
 U 1 1 4ED6AF08
-P 6050 6450
-F 0 "R3" V 6130 6450 50  0000 C CNN
-F 1 "10k" V 6050 6450 50  0000 C CNN
-F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 6050 6450 60  0001 C CNN
-F 4 "Vishay" H 6050 6450 60  0001 C CNN "Vendor"
-F 5 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Product"
-F 6 "TME" H 6050 6450 60  0001 C CNN "Supplier"
-F 7 "CRCW080510K0JNTABC" H 6050 6450 60  0001 C CNN "Supplier Symbol"
-	1    6050 6450
+P 6500 6800
+F 0 "R3" V 6580 6800 50  0000 C CNN
+F 1 "10k" V 6500 6800 50  0000 C CNN
+F 3 "http://www.tme.eu/pl/Document/e5152f6c2c4f933b61676f6de7ae79a8/dcrcw.pdf" H 6500 6800 60  0001 C CNN
+F 4 "Vishay" H 6500 6800 60  0001 C CNN "Vendor"
+F 5 "CRCW080510K0JNTABC" H 6500 6800 60  0001 C CNN "Product"
+F 6 "TME" H 6500 6800 60  0001 C CNN "Supplier"
+F 7 "CRCW080510K0JNTABC" H 6500 6800 60  0001 C CNN "Supplier Symbol"
+	1    6500 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -759,6 +759,129 @@ F 7 "CL21B104KBCNNNC" H 1250 1600 60  0001 C CNN "Supplier Symbol"
 	1    1250 1600
 	1    0    0    -1  
 $EndComp
+Entry Wire Line
+	6200 5400 6300 5300
+Entry Wire Line
+	6200 5500 6300 5400
+Entry Wire Line
+	6200 5600 6300 5500
+Entry Wire Line
+	6200 5700 6300 5600
+Text Label 5900 5400 0    50   ~ 0
+GPIO0
+Text Label 5900 5500 0    50   ~ 0
+GPIO1
+Text Label 5900 5600 0    50   ~ 0
+GPIO2
+Text Label 5900 5700 0    50   ~ 0
+GPIO3
+$Comp
+L CONN_1 P7
+U 1 1 5136239B
+P 10000 5700
+F 0 "P7" H 10080 5700 40  0000 L CNN
+F 1 "CONN_1" H 10000 5755 30  0001 C CNN
+	1    10000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P8
+U 1 1 513623A1
+P 10000 5800
+F 0 "P8" H 10080 5800 40  0000 L CNN
+F 1 "CONN_1" H 10000 5855 30  0001 C CNN
+	1    10000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 513623A7
+P 10000 5900
+F 0 "P9" H 10080 5900 40  0000 L CNN
+F 1 "CONN_1" H 10000 5955 30  0001 C CNN
+	1    10000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P10
+U 1 1 51362518
+P 10000 6000
+F 0 "P10" H 10080 6000 40  0000 L CNN
+F 1 "CONN_1" H 10000 6055 30  0001 C CNN
+	1    10000 6000
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	9350 5800 9450 5700
+Entry Wire Line
+	9350 5900 9450 5800
+Entry Wire Line
+	9350 6000 9450 5900
+Entry Wire Line
+	9350 6100 9450 6000
+Text Label 9550 5700 0    50   ~ 0
+GPIO0
+Text Label 9550 5800 0    50   ~ 0
+GPIO1
+Text Label 9550 5900 0    50   ~ 0
+GPIO2
+Text Label 9550 6000 0    50   ~ 0
+GPIO3
+$Comp
+L CONN_1 P11
+U 1 1 51365814
+P 10000 2600
+F 0 "P11" H 10080 2600 40  0000 L CNN
+F 1 "CONN_1" H 10000 2655 30  0001 C CNN
+	1    10000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P12
+U 1 1 5136581A
+P 10000 2700
+F 0 "P12" H 10080 2700 40  0000 L CNN
+F 1 "CONN_1" H 10000 2755 30  0001 C CNN
+	1    10000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P13
+U 1 1 51365820
+P 10000 2800
+F 0 "P13" H 10080 2800 40  0000 L CNN
+F 1 "CONN_1" H 10000 2855 30  0001 C CNN
+	1    10000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P14
+U 1 1 51365826
+P 10000 2900
+F 0 "P14" H 10080 2900 40  0000 L CNN
+F 1 "CONN_1" H 10000 2955 30  0001 C CNN
+	1    10000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P15
+U 1 1 51365868
+P 10000 3000
+F 0 "P15" H 10080 3000 40  0000 L CNN
+F 1 "CONN_1" H 10000 3055 30  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	9350 2700 9450 2600
+Entry Wire Line
+	9350 2800 9450 2700
+Entry Wire Line
+	9350 2900 9450 2800
+Entry Wire Line
+	9350 3000 9450 2900
+Entry Wire Line
+	9350 3100 9450 3000
 Wire Wire Line
 	8150 4200 7750 4200
 Wire Wire Line
@@ -784,13 +907,13 @@ Wire Wire Line
 Wire Wire Line
 	7750 3000 8150 3000
 Wire Wire Line
-	5750 5100 6050 5100
+	5750 5100 6500 5100
 Wire Bus Line
 	7650 2900 7650 5400
 Wire Bus Line
 	7200 2900 7650 2900
 Wire Bus Line
-	7200 2900 7200 6000
+	7200 2500 7200 6000
 Wire Wire Line
 	1550 2750 1800 2750
 Wire Wire Line
@@ -799,8 +922,6 @@ Wire Wire Line
 	6400 1650 7000 1650
 Wire Wire Line
 	5750 5200 7100 5200
-Wire Wire Line
-	5750 5900 7100 5900
 Wire Wire Line
 	6100 3700 5750 3700
 Wire Wire Line
@@ -834,7 +955,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 3550 3750 3550
 Wire Wire Line
-	6050 5100 6050 6200
+	6500 5100 6500 6550
 Wire Wire Line
 	8000 1650 8000 1050
 Wire Wire Line
@@ -847,7 +968,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3500 6200 3500
 Wire Wire Line
-	6050 6900 6050 6700
+	6500 7200 6500 7050
 Wire Wire Line
 	3600 5900 3600 6900
 Wire Wire Line
@@ -969,8 +1090,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 3600 6400 3600
 Wire Wire Line
-	7100 5800 5750 5800
-Wire Wire Line
 	5750 4000 7100 4000
 Wire Wire Line
 	6400 1750 7000 1750
@@ -1002,4 +1121,54 @@ Wire Wire Line
 	1250 1200 1250 1400
 Wire Wire Line
 	1250 1800 1250 1950
+Wire Wire Line
+	5750 5800 7100 5800
+Wire Wire Line
+	5750 5900 7100 5900
+Wire Wire Line
+	5750 5400 6200 5400
+Wire Wire Line
+	6200 5500 5750 5500
+Wire Wire Line
+	6200 5600 5750 5600
+Wire Wire Line
+	6200 5700 5750 5700
+Wire Bus Line
+	6300 5250 6300 6350
+Wire Wire Line
+	9450 5700 9850 5700
+Wire Wire Line
+	9850 5800 9450 5800
+Wire Wire Line
+	9450 5900 9850 5900
+Wire Wire Line
+	9850 6000 9450 6000
+Wire Bus Line
+	7200 2500 9350 2500
+Wire Bus Line
+	9350 2500 9350 3200
+Wire Wire Line
+	9450 2600 9850 2600
+Wire Wire Line
+	9850 2700 9450 2700
+Wire Wire Line
+	9450 2800 9850 2800
+Wire Wire Line
+	9450 2900 9850 2900
+Wire Wire Line
+	9850 3000 9450 3000
+Text Label 9500 2600 0    60   ~ 0
+row1
+Text Label 9500 2700 0    60   ~ 0
+row2
+Text Label 9500 2800 0    60   ~ 0
+row3
+Text Label 9500 2900 0    60   ~ 0
+row4
+Text Label 9500 3000 0    60   ~ 0
+row5
+Wire Bus Line
+	6300 6350 9350 6350
+Wire Bus Line
+	9350 6350 9350 5650
 $EndSCHEMATC
