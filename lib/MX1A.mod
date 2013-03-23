@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 31 Oct 2012 06:04:08 PM CET
+PCBNEW-LibModule-V1  Thu 21 Mar 2013 04:10:01 PM CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -9,6 +9,7 @@ MX1A-ledlock
 MX1A-simple
 MX1A-sm
 MX1A-sm1
+MX1A-wire
 MXST
 $EndINDEX
 $MODULE MX1A
@@ -375,6 +376,39 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE MX1A-sm1
+$MODULE MX1A-wire
+Po 0 0 0 15 514B22C5 00000000 ~~
+Li MX1A-wire
+Sc 0
+AR switch_mx3
+Op 0 0 0
+T0 3.81 8.89 1.524 1.524 0 0.3048 N I 21 N "MXWIRE"
+T1 0 -8.255 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+DS -7.62 -7.62 7.62 -7.62 0.381 21
+DS 7.62 -7.62 7.62 7.62 0.381 21
+DS 7.62 7.62 -7.62 7.62 0.381 21
+DS -7.62 7.62 -7.62 -7.62 0.381 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 1.0008 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 5.08
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.0008 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 5.08
+$EndPAD
+$SHAPE3D
+Na "cherry_mx1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MX1A-wire
 $MODULE MXST
 Po 0 0 0 15 50915A02 00000000 ~~
 Li MXST
