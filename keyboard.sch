@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 06 Mar 2013 09:44:42 PM CET
+EESchema Schematic File Version 2  date Tue 02 Apr 2013 06:31:20 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "6 mar 2013"
+Date "2 apr 2013"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -909,91 +909,11 @@ Wire Wire Line
 Wire Wire Line
 	5750 5100 6500 5100
 Wire Bus Line
-	7650 2900 7650 3100
-Wire Bus Line
-	7650 3100 7650 3200
-Wire Bus Line
-	7650 3200 7650 3300
-Wire Bus Line
-	7650 3300 7650 3400
-Wire Bus Line
-	7650 3400 7650 3500
-Wire Bus Line
-	7650 3500 7650 3800
-Wire Bus Line
-	7650 3800 7650 3900
-Wire Bus Line
-	7650 3900 7650 4000
-Wire Bus Line
-	7650 4000 7650 4100
-Wire Bus Line
-	7650 4100 7650 4200
-Wire Bus Line
-	7650 4200 7650 4300
-Wire Bus Line
-	7650 4300 7650 4400
-Wire Bus Line
-	7650 4400 7650 4500
-Wire Bus Line
-	7650 4500 7650 4600
-Wire Bus Line
-	7650 4600 7650 4700
-Wire Bus Line
-	7650 4700 7650 4800
-Wire Bus Line
-	7650 4800 7650 4900
-Wire Bus Line
-	7650 4900 7650 5000
-Wire Bus Line
-	7650 5000 7650 5100
-Wire Bus Line
-	7650 5100 7650 5350
-Wire Bus Line
-	7650 5350 7650 5400
+	7650 2900 7650 5400
 Wire Bus Line
 	7200 2900 7650 2900
 Wire Bus Line
-	7200 2500 7200 3100
-Wire Bus Line
-	7200 3100 7200 3200
-Wire Bus Line
-	7200 3200 7200 3300
-Wire Bus Line
-	7200 3300 7200 3400
-Wire Bus Line
-	7200 3400 7200 3500
-Wire Bus Line
-	7200 3500 7200 3600
-Wire Bus Line
-	7200 3600 7200 3700
-Wire Bus Line
-	7200 3700 7200 3800
-Wire Bus Line
-	7200 3800 7200 4000
-Wire Bus Line
-	7200 4000 7200 4100
-Wire Bus Line
-	7200 4100 7200 4300
-Wire Bus Line
-	7200 4300 7200 4400
-Wire Bus Line
-	7200 4400 7200 4500
-Wire Bus Line
-	7200 4500 7200 4600
-Wire Bus Line
-	7200 4600 7200 4700
-Wire Bus Line
-	7200 4700 7200 4800
-Wire Bus Line
-	7200 4800 7200 4900
-Wire Bus Line
-	7200 4900 7200 5000
-Wire Bus Line
-	7200 5000 7200 5300
-Wire Bus Line
-	7200 5300 7200 5900
-Wire Bus Line
-	7200 5900 7200 6000
+	7200 2500 7200 6000
 Wire Wire Line
 	1550 2750 1800 2750
 Wire Wire Line
@@ -1027,17 +947,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 4300 5750 4300
 Wire Bus Line
-	8600 1300 8600 1850
-Wire Bus Line
-	8600 1850 8600 2100
+	8600 1300 8600 2100
 Wire Wire Line
 	1550 3050 1550 2750
 Wire Wire Line
 	3100 3800 3100 4000
 Wire Wire Line
-	3250 3550 3450 3550
-Wire Wire Line
-	3450 3550 3750 3550
+	3250 3550 3750 3550
 Wire Wire Line
 	6500 5100 6500 6550
 Wire Wire Line
@@ -1075,35 +991,21 @@ Wire Wire Line
 	4550 2150 4550 2450
 Connection ~ 1550 1950
 Wire Wire Line
-	1550 1800 1550 1950
-Wire Wire Line
-	1550 1950 1550 2200
+	1550 1800 1550 2200
 Connection ~ 1850 1950
 Wire Wire Line
 	1850 1950 1850 1800
 Wire Wire Line
 	2450 1950 2450 1800
 Wire Wire Line
-	1250 1950 1550 1950
-Wire Wire Line
-	1550 1950 1850 1950
-Wire Wire Line
-	1850 1950 2150 1950
-Wire Wire Line
-	2150 1950 2450 1950
+	1250 1950 2450 1950
 Connection ~ 1850 1200
 Wire Wire Line
 	1850 1200 1850 1400
 Wire Wire Line
 	2450 1200 2450 1400
 Wire Wire Line
-	1250 1200 1550 1200
-Wire Wire Line
-	1550 1200 1850 1200
-Wire Wire Line
-	1850 1200 2150 1200
-Wire Wire Line
-	2150 1200 2450 1200
+	1250 1200 2450 1200
 Wire Wire Line
 	4800 6450 4800 6900
 Wire Wire Line
@@ -1114,9 +1016,7 @@ Connection ~ 3450 3550
 Wire Wire Line
 	3450 3700 3450 3550
 Wire Wire Line
-	2550 3150 2550 3550
-Wire Wire Line
-	2550 3550 2550 3700
+	2550 3150 2550 3700
 Connection ~ 2550 3550
 Wire Wire Line
 	2550 4100 2550 4300
@@ -1128,9 +1028,7 @@ Wire Wire Line
 	2150 1200 2150 1400
 Connection ~ 2150 1200
 Wire Wire Line
-	1550 1050 1550 1200
-Wire Wire Line
-	1550 1200 1550 1400
+	1550 1050 1550 1400
 Connection ~ 1550 1200
 Wire Wire Line
 	2150 1950 2150 1800
@@ -1156,18 +1054,14 @@ Wire Wire Line
 Wire Wire Line
 	3600 5600 3750 5600
 Wire Wire Line
-	3600 5000 3600 5100
-Wire Wire Line
-	3600 5100 3600 5600
+	3600 5000 3600 5600
 Connection ~ 3600 5100
 Wire Wire Line
 	5750 3400 6200 3400
 Wire Wire Line
 	5750 3600 6200 3600
 Wire Wire Line
-	3550 1850 5700 1850
-Wire Wire Line
-	5700 1850 7000 1850
+	3550 1850 7000 1850
 Wire Wire Line
 	3550 2750 3550 1850
 Connection ~ 3550 2750
@@ -1200,23 +1094,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 1750 7000 1750
 Wire Bus Line
-	6300 1300 6300 1550
-Wire Bus Line
-	6300 1550 6300 1650
-Wire Bus Line
-	6300 1650 6300 3500
-Wire Bus Line
-	6300 3500 6300 3600
-Wire Bus Line
-	6300 3600 6300 3700
-Wire Bus Line
-	6300 3700 6300 3750
+	6300 1300 6300 3750
 Wire Bus Line
 	6300 1300 8600 1300
 Wire Wire Line
-	2200 2750 3550 2750
-Wire Wire Line
-	3550 2750 3750 2750
+	2200 2750 3750 2750
 Wire Wire Line
 	7750 4300 8150 4300
 Wire Wire Line
@@ -1252,15 +1134,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5700 5750 5700
 Wire Bus Line
-	6300 5250 6300 5300
-Wire Bus Line
-	6300 5300 6300 5400
-Wire Bus Line
-	6300 5400 6300 5500
-Wire Bus Line
-	6300 5500 6300 5600
-Wire Bus Line
-	6300 5600 6300 6350
+	6300 5250 6300 6350
 Wire Wire Line
 	9450 5700 9850 5700
 Wire Wire Line
@@ -1272,17 +1146,7 @@ Wire Wire Line
 Wire Bus Line
 	7200 2500 9350 2500
 Wire Bus Line
-	9350 2500 9350 2700
-Wire Bus Line
-	9350 2700 9350 2800
-Wire Bus Line
-	9350 2800 9350 2900
-Wire Bus Line
-	9350 2900 9350 3000
-Wire Bus Line
-	9350 3000 9350 3100
-Wire Bus Line
-	9350 3100 9350 3200
+	9350 2500 9350 3200
 Wire Wire Line
 	9450 2600 9850 2600
 Wire Wire Line
@@ -1306,15 +1170,7 @@ row5
 Wire Bus Line
 	6300 6350 9350 6350
 Wire Bus Line
-	9350 6350 9350 6100
-Wire Bus Line
-	9350 6100 9350 6000
-Wire Bus Line
-	9350 6000 9350 5900
-Wire Bus Line
-	9350 5900 9350 5800
-Wire Bus Line
-	9350 5800 9350 5650
+	9350 6350 9350 5650
 $Comp
 L CONN_1 P16
 U 1 1 5137B43F
@@ -1334,10 +1190,10 @@ F 1 "CONN_1" H 10000 6255 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR026
 U 1 1 5137B7DB
 P 9700 6400
-F 0 "#PWR?" H 9700 6400 30  0001 C CNN
+F 0 "#PWR026" H 9700 6400 30  0001 C CNN
 F 1 "GND" H 9700 6330 30  0001 C CNN
 	1    9700 6400
 	1    0    0    -1  
@@ -1347,10 +1203,10 @@ Wire Wire Line
 Wire Wire Line
 	9700 6200 9700 6400
 $Comp
-L VCC #PWR?
+L VCC #PWR027
 U 1 1 5137BDF3
 P 9200 5700
-F 0 "#PWR?" H 9200 5800 30  0001 C CNN
+F 0 "#PWR027" H 9200 5800 30  0001 C CNN
 F 1 "VCC" H 9200 5800 30  0000 C CNN
 	1    9200 5700
 	1    0    0    -1  

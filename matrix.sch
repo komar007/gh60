@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 06 Mar 2013 09:44:42 PM CET
+EESchema Schematic File Version 2  date Tue 02 Apr 2013 06:31:20 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "6 mar 2013"
+Date "2 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -520,20 +520,20 @@ $EndComp
 $Comp
 L MX1A S65
 U 1 1 5040DF5F
-P 11700 8450
-F 0 "S65" H 11550 8700 60  0000 C CNN
-F 1 "MX1A" H 11700 8550 60  0000 C CNN
-	1    11700 8450
-	-1   0    0    1   
+P 11700 9000
+F 0 "S65" H 11550 9250 60  0000 C CNN
+F 1 "MX1A" H 11700 9100 60  0000 C CNN
+	1    11700 9000
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S70
 U 1 1 5040DF65
-P 12400 8450
-F 0 "S70" H 12250 8700 60  0000 C CNN
-F 1 "MX1A" H 12400 8550 60  0000 C CNN
-	1    12400 8450
-	-1   0    0    1   
+P 12400 9000
+F 0 "S70" H 12250 9250 60  0000 C CNN
+F 1 "MX1A" H 12400 9100 60  0000 C CNN
+	1    12400 9000
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S641
@@ -556,20 +556,20 @@ $EndComp
 $Comp
 L MX1A S0512
 U 1 1 5040ECF7
-P 3300 8450
-F 0 "S0512" H 3150 8700 60  0000 C CNN
-F 1 "MX1A" H 3300 8550 60  0000 C CNN
-	1    3300 8450
-	-1   0    0    1   
+P 3300 9000
+F 0 "S0512" H 3150 9250 60  0000 C CNN
+F 1 "MX1A" H 3300 9100 60  0000 C CNN
+	1    3300 9000
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S102
 U 1 1 5040EEA3
-P 4000 8450
-F 0 "S102" H 3850 8700 60  0000 C CNN
-F 1 "MX1A" H 4000 8550 60  0000 C CNN
-	1    4000 8450
-	-1   0    0    1   
+P 4050 8850
+F 0 "S102" H 3900 9100 60  0000 C CNN
+F 1 "MX1A" H 4050 8950 60  0000 C CNN
+	1    4050 8850
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S101
@@ -583,11 +583,11 @@ $EndComp
 $Comp
 L MX1A S552
 U 1 1 5040F08D
-P 10300 8450
-F 0 "S552" H 10150 8700 60  0000 C CNN
-F 1 "MX1A" H 10300 8550 60  0000 C CNN
-	1    10300 8450
-	-1   0    0    1   
+P 10300 9000
+F 0 "S552" H 10150 9250 60  0000 C CNN
+F 1 "MX1A" H 10300 9100 60  0000 C CNN
+	1    10300 9000
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S602
@@ -601,11 +601,11 @@ $EndComp
 $Comp
 L MX1A S151
 U 1 1 5040F14F
-P 4700 8450
-F 0 "S151" H 4550 8700 60  0000 C CNN
-F 1 "MX1A" H 4700 8550 60  0000 C CNN
-	1    4700 8450
-	-1   0    0    1   
+P 4700 9000
+F 0 "S151" H 4550 9250 60  0000 C CNN
+F 1 "MX1A" H 4700 9100 60  0000 C CNN
+	1    4700 9000
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S6512
@@ -628,11 +628,11 @@ $EndComp
 $Comp
 L MX1A S301
 U 1 1 5040FAEC
-P 6800 8450
-F 0 "S301" H 6650 8700 60  0000 C CNN
-F 1 "MX1A" H 6800 8550 60  0000 C CNN
-	1    6800 8450
-	-1   0    0    1   
+P 6850 8900
+F 0 "S301" H 6700 9150 60  0000 C CNN
+F 1 "MX1A" H 6850 9000 60  0000 C CNN
+	1    6850 8900
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX1A S302
@@ -706,11 +706,11 @@ col7
 $Comp
 L MX1A S30
 U 1 1 5040DF35
-P 6800 8800
-F 0 "S30" H 6650 9050 60  0000 C CNN
-F 1 "MX1A" H 6800 8900 60  0000 C CNN
-	1    6800 8800
-	-1   0    0    1   
+P 6800 9350
+F 0 "S30" H 6650 9600 60  0000 C CNN
+F 1 "MX1A" H 6800 9450 60  0000 C CNN
+	1    6800 9350
+	1    0    0    -1  
 $EndComp
 Text Notes 8700 2450 0    120  ~ 0
 col9
@@ -792,10 +792,10 @@ col13
 Text HLabel 12700 1400 1    60   3State ~ 0
 col14
 $Comp
-L VCC #PWR026
+L VCC #PWR028
 U 1 1 5043970C
 P 14800 1400
-F 0 "#PWR026" H 14800 1500 30  0001 C CNN
+F 0 "#PWR028" H 14800 1500 30  0001 C CNN
 F 1 "VCC" H 14800 1500 30  0000 C CNN
 	1    14800 1400
 	1    0    0    -1  
@@ -832,11 +832,11 @@ $EndComp
 $Comp
 L MX1A S691
 U 1 1 5051FE50
-P 12450 7350
-F 0 "S691" H 12300 7600 60  0000 C CNN
-F 1 "MX1A" H 12450 7450 60  0000 C CNN
-	1    12450 7350
-	1    0    0    -1  
+P 12400 6950
+F 0 "S691" H 12250 7200 60  0000 C CNN
+F 1 "MX1A" H 12400 7050 60  0000 C CNN
+	1    12400 6950
+	-1   0    0    1   
 $EndComp
 $Comp
 L MX1A S692
@@ -1715,6 +1715,167 @@ F 1 "MX1A" H 11050 8950 60  0000 C CNN
 	1    11050 8850
 	1    0    0    -1  
 $EndComp
+Text Notes 3150 3900 0    60   ~ 0
+ESC
+Text Notes 3850 3900 0    60   ~ 0
+1
+Text Notes 4550 3900 0    60   ~ 0
+2
+Text Notes 5250 3900 0    60   ~ 0
+3
+Text Notes 5950 3900 0    60   ~ 0
+4
+Text Notes 6650 3900 0    60   ~ 0
+5
+Text Notes 7350 3900 0    60   ~ 0
+6
+Text Notes 8050 3900 0    60   ~ 0
+7
+Text Notes 8750 3900 0    60   ~ 0
+8
+Text Notes 9450 3900 0    60   ~ 0
+9
+Text Notes 10150 3900 0    60   ~ 0
+0
+Text Notes 10850 3900 0    60   ~ 0
+-
+Text Notes 11550 3900 0    60   ~ 0
+=
+Text Notes 12250 3900 0    60   ~ 0
+backspace
+Text Notes 3150 4900 0    60   ~ 0
+tab
+Text Notes 3850 4900 0    60   ~ 0
+Q
+Text Notes 4550 4900 0    60   ~ 0
+W
+Text Notes 5250 4900 0    60   ~ 0
+E
+Text Notes 5950 4900 0    60   ~ 0
+R
+Text Notes 6650 4900 0    60   ~ 0
+T
+Text Notes 7350 4900 0    60   ~ 0
+Y
+Text Notes 8050 4900 0    60   ~ 0
+U
+Text Notes 8750 4900 0    60   ~ 0
+I
+Text Notes 9450 4900 0    60   ~ 0
+O
+Text Notes 10150 4900 0    60   ~ 0
+P
+Text Notes 10850 4900 0    60   ~ 0
+[
+Text Notes 11550 4900 0    60   ~ 0
+]
+Text Notes 12250 4900 0    60   ~ 0
+\
+Text Notes 3150 6300 0    60   ~ 0
+caps
+Text Notes 3850 6300 0    60   ~ 0
+A
+Text Notes 4550 6300 0    60   ~ 0
+S
+Text Notes 5250 6300 0    60   ~ 0
+D
+Text Notes 5950 6300 0    60   ~ 0
+F
+Text Notes 6650 6300 0    60   ~ 0
+G
+Text Notes 7350 6300 0    60   ~ 0
+H
+Text Notes 8050 6300 0    60   ~ 0
+J
+Text Notes 8750 6300 0    60   ~ 0
+K
+Text Notes 9450 6300 0    60   ~ 0
+L
+Text Notes 10150 6300 0    60   ~ 0
+;
+Text Notes 10850 6300 0    60   ~ 0
+'
+Text Notes 11550 6300 0    60   ~ 0
+iso #
+Text Notes 12200 6450 0    60   ~ 0
+enter
+Text Notes 3150 7650 0    60   ~ 0
+lshift
+Text Notes 3850 7650 0    60   ~ 0
+iso \
+Text Notes 4550 7650 0    60   ~ 0
+Z
+Text Notes 5250 7650 0    60   ~ 0
+X
+Text Notes 5950 7650 0    60   ~ 0
+C
+Text Notes 6650 7650 0    60   ~ 0
+V
+Text Notes 7350 7650 0    60   ~ 0
+B
+Text Notes 8050 7650 0    60   ~ 0
+N
+Text Notes 8750 7650 0    60   ~ 0
+M
+Text Notes 9450 7650 0    60   ~ 0
+,
+Text Notes 10150 7650 0    60   ~ 0
+.
+Text Notes 10850 7650 0    60   ~ 0
+/
+Text Notes 11550 7650 0    60   ~ 0
+fn
+Text Notes 12250 7900 0    60   ~ 0
+rshift
+Text Notes 3100 9600 0    60   ~ 0
+mod1
+Text Notes 3850 9600 0    60   ~ 0
+mod2
+Text Notes 4550 9600 0    60   ~ 0
+mod3
+Text Notes 6600 9600 0    60   ~ 0
+space
+Text Notes 10100 9600 0    60   ~ 0
+mod4
+Text Notes 10850 9600 0    60   ~ 0
+mod5
+Text Notes 11500 9600 0    60   ~ 0
+mod6
+Text Notes 12200 9600 0    60   ~ 0
+mod7
+$Comp
+L MX1A S661
+U 1 1 51374D98
+P 12450 3650
+F 0 "S661" H 12300 3900 60  0000 C CNN
+F 1 "MX1A" H 12450 3750 60  0000 C CNN
+	1    12450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX1A S50
+U 1 1 51374F44
+P 9650 8550
+F 0 "S50" H 9500 8800 60  0000 C CNN
+F 1 "MX1A" H 9650 8650 60  0000 C CNN
+	1    9650 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D50
+U 1 1 51374F62
+P 9650 8550
+F 0 "D50" H 9500 8500 40  0000 C CNN
+F 1 "1N4148" H 9550 8550 40  0000 C CNN
+F 4 "DC Components" H 4150 4600 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 4150 4600 60  0001 C CNN "Product"
+F 6 "TME" H 4150 4600 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 4150 4600 60  0001 C CNN "Supplier Symbol"
+	1    9650 8550
+	1    0    0    -1  
+$EndComp
+Text Notes 9450 9500 0    60   ~ 0
+extra\nrow 15
 Wire Wire Line
 	4300 1400 4300 10000
 Wire Wire Line
@@ -1846,15 +2007,8 @@ Wire Wire Line
 Connection ~ 3100 8450
 Wire Wire Line
 	3550 8850 3500 8850
-Connection ~ 3800 8600
-Wire Wire Line
-	4200 8850 4250 8850
-Connection ~ 4250 8850
 Wire Wire Line
 	4950 8850 4900 8850
-Wire Wire Line
-	7000 8850 7050 8850
-Connection ~ 7050 8850
 Wire Wire Line
 	10550 8850 10500 8850
 Wire Wire Line
@@ -1884,12 +2038,9 @@ Wire Wire Line
 	14800 2800 14800 3200
 Wire Wire Line
 	12200 6650 12200 7250
-Wire Wire Line
-	12200 6950 12250 6950
 Connection ~ 12200 6650
 Wire Wire Line
 	12200 7250 12250 7250
-Connection ~ 12200 6950
 Wire Wire Line
 	12650 6900 12650 7650
 Wire Wire Line
@@ -2225,7 +2376,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 3800 12700 3800
 Wire Wire Line
-	12650 3700 12650 3200
+	12650 3200 12650 3700
 Wire Wire Line
 	11550 3350 11550 3450
 Wire Wire Line
@@ -2358,7 +2509,6 @@ Wire Wire Line
 	12650 5400 12650 6200
 Connection ~ 12650 5700
 Connection ~ 11950 7200
-Connection ~ 12650 7200
 Connection ~ 4250 9000
 Connection ~ 3550 5850
 Connection ~ 9450 5150
@@ -2366,7 +2516,6 @@ Connection ~ 9450 4150
 Connection ~ 9450 2950
 Connection ~ 15100 1650
 Connection ~ 15100 2050
-Connection ~ 6600 8600
 Wire Wire Line
 	12250 6300 12250 6200
 Connection ~ 12200 5450
@@ -2376,174 +2525,15 @@ Connection ~ 12650 6150
 Connection ~ 12650 7500
 Wire Wire Line
 	11550 6750 11550 6650
-Text Notes 3150 3900 0    60   ~ 0
-ESC
-Text Notes 3850 3900 0    60   ~ 0
-1
-Text Notes 4550 3900 0    60   ~ 0
-2
-Text Notes 5250 3900 0    60   ~ 0
-3
-Text Notes 5950 3900 0    60   ~ 0
-4
-Text Notes 6650 3900 0    60   ~ 0
-5
-Text Notes 7350 3900 0    60   ~ 0
-6
-Text Notes 8050 3900 0    60   ~ 0
-7
-Text Notes 8750 3900 0    60   ~ 0
-8
-Text Notes 9450 3900 0    60   ~ 0
-9
-Text Notes 10150 3900 0    60   ~ 0
-0
-Text Notes 10850 3900 0    60   ~ 0
--
-Text Notes 11550 3900 0    60   ~ 0
-=
-Text Notes 12250 3900 0    60   ~ 0
-backspace
-Text Notes 3150 4900 0    60   ~ 0
-tab
-Text Notes 3850 4900 0    60   ~ 0
-Q
-Text Notes 4550 4900 0    60   ~ 0
-W
-Text Notes 5250 4900 0    60   ~ 0
-E
-Text Notes 5950 4900 0    60   ~ 0
-R
-Text Notes 6650 4900 0    60   ~ 0
-T
-Text Notes 7350 4900 0    60   ~ 0
-Y
-Text Notes 8050 4900 0    60   ~ 0
-U
-Text Notes 8750 4900 0    60   ~ 0
-I
-Text Notes 9450 4900 0    60   ~ 0
-O
-Text Notes 10150 4900 0    60   ~ 0
-P
-Text Notes 10850 4900 0    60   ~ 0
-[
-Text Notes 11550 4900 0    60   ~ 0
-]
-Text Notes 12250 4900 0    60   ~ 0
-\
-Text Notes 3150 6300 0    60   ~ 0
-caps
-Text Notes 3850 6300 0    60   ~ 0
-A
-Text Notes 4550 6300 0    60   ~ 0
-S
-Text Notes 5250 6300 0    60   ~ 0
-D
-Text Notes 5950 6300 0    60   ~ 0
-F
-Text Notes 6650 6300 0    60   ~ 0
-G
-Text Notes 7350 6300 0    60   ~ 0
-H
-Text Notes 8050 6300 0    60   ~ 0
-J
-Text Notes 8750 6300 0    60   ~ 0
-K
-Text Notes 9450 6300 0    60   ~ 0
-L
-Text Notes 10150 6300 0    60   ~ 0
-;
-Text Notes 10850 6300 0    60   ~ 0
-'
-Text Notes 11550 6300 0    60   ~ 0
-iso #
-Text Notes 12200 6450 0    60   ~ 0
-enter
-Text Notes 3150 7650 0    60   ~ 0
-lshift
-Text Notes 3850 7650 0    60   ~ 0
-iso \
-Text Notes 4550 7650 0    60   ~ 0
-Z
-Text Notes 5250 7650 0    60   ~ 0
-X
-Text Notes 5950 7650 0    60   ~ 0
-C
-Text Notes 6650 7650 0    60   ~ 0
-V
-Text Notes 7350 7650 0    60   ~ 0
-B
-Text Notes 8050 7650 0    60   ~ 0
-N
-Text Notes 8750 7650 0    60   ~ 0
-M
-Text Notes 9450 7650 0    60   ~ 0
-,
-Text Notes 10150 7650 0    60   ~ 0
-.
-Text Notes 10850 7650 0    60   ~ 0
-/
-Text Notes 11550 7650 0    60   ~ 0
-fn
-Text Notes 12250 7900 0    60   ~ 0
-rshift
-Text Notes 3100 9600 0    60   ~ 0
-mod1
-Text Notes 3850 9600 0    60   ~ 0
-mod2
-Text Notes 4550 9600 0    60   ~ 0
-mod3
-Text Notes 6600 9600 0    60   ~ 0
-space
-Text Notes 10100 9600 0    60   ~ 0
-mod4
-Text Notes 10850 9600 0    60   ~ 0
-mod5
-Text Notes 11500 9600 0    60   ~ 0
-mod6
-Text Notes 12200 9600 0    60   ~ 0
-mod7
 Wire Wire Line
 	10800 8900 10850 8900
 Wire Wire Line
 	12250 3800 12250 3700
-$Comp
-L MX1A S661
-U 1 1 51374D98
-P 12450 3650
-F 0 "S661" H 12300 3900 60  0000 C CNN
-F 1 "MX1A" H 12450 3750 60  0000 C CNN
-	1    12450 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12250 3250 12200 3250
 Wire Wire Line
 	12200 3250 12200 2950
 Connection ~ 12200 2950
-$Comp
-L MX1A S50
-U 1 1 51374F44
-P 9650 8550
-F 0 "S50" H 9500 8800 60  0000 C CNN
-F 1 "MX1A" H 9650 8650 60  0000 C CNN
-	1    9650 8550
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D50
-U 1 1 51374F62
-P 9650 8550
-F 0 "D50" H 9500 8500 40  0000 C CNN
-F 1 "1N4148" H 9550 8550 40  0000 C CNN
-F 4 "DC Components" H 4150 4600 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 4150 4600 60  0001 C CNN "Product"
-F 6 "TME" H 4150 4600 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 4150 4600 60  0001 C CNN "Supplier Symbol"
-	1    9650 8550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9450 8550 9450 8650
 Wire Wire Line
@@ -2552,7 +2542,17 @@ Wire Wire Line
 	9850 8550 9850 8400
 Connection ~ 9900 8650
 Connection ~ 9450 8150
-Text Notes 9450 9500 0    60   ~ 0
-extra\nrow 15
 Connection ~ 12650 3500
+Wire Wire Line
+	3850 8450 3800 8450
+Connection ~ 3800 8450
+Connection ~ 4250 8700
+Connection ~ 7050 8750
+Wire Wire Line
+	6650 8500 6600 8500
+Connection ~ 6600 8500
+Wire Wire Line
+	12600 7350 12650 7350
+Connection ~ 12650 7350
+Connection ~ 12200 7100
 $EndSCHEMATC
