@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 02 Apr 2013 06:31:20 PM CEST
+EESchema Schematic File Version 2  date Mon 15 Apr 2013 11:01:31 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "2 apr 2013"
+Date "15 apr 2013"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -882,6 +882,128 @@ Entry Wire Line
 	9350 3000 9450 2900
 Entry Wire Line
 	9350 3100 9450 3000
+Text Label 9500 2600 0    60   ~ 0
+row1
+Text Label 9500 2700 0    60   ~ 0
+row2
+Text Label 9500 2800 0    60   ~ 0
+row3
+Text Label 9500 2900 0    60   ~ 0
+row4
+Text Label 9500 3000 0    60   ~ 0
+row5
+$Comp
+L CONN_1 P16
+U 1 1 5137B43F
+P 10000 6100
+F 0 "P16" H 10080 6100 40  0000 L CNN
+F 1 "CONN_1" H 10000 6155 30  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P17
+U 1 1 5137B445
+P 10000 6200
+F 0 "P17" H 10080 6200 40  0000 L CNN
+F 1 "CONN_1" H 10000 6255 30  0001 C CNN
+	1    10000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 5137B7DB
+P 9700 6400
+F 0 "#PWR026" H 9700 6400 30  0001 C CNN
+F 1 "GND" H 9700 6330 30  0001 C CNN
+	1    9700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR027
+U 1 1 5137BDF3
+P 9200 5700
+F 0 "#PWR027" H 9200 5800 30  0001 C CNN
+F 1 "VCC" H 9200 5800 30  0000 C CNN
+	1    9200 5700
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	9350 5350 9450 5250
+$Comp
+L LED DW4
+U 1 1 516C76BF
+P 10750 5250
+F 0 "DW4" H 10650 5350 50  0000 C CNN
+F 1 "LED" H 10900 5150 50  0000 C CNN
+	1    10750 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 516C77CB
+P 10150 5250
+F 0 "R9" V 10230 5250 50  0000 C CNN
+F 1 "R" V 10150 5250 50  0000 C CNN
+	1    10150 5250
+	0    -1   -1   0   
+$EndComp
+Text Label 9550 5250 0    50   ~ 0
+GPIO0
+$Comp
+L LED DW3
+U 1 1 516C8475
+P 10750 5050
+F 0 "DW3" H 10650 5150 50  0000 C CNN
+F 1 "LED" H 10900 4950 50  0000 C CNN
+	1    10750 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R8
+U 1 1 516C847B
+P 10150 5050
+F 0 "R8" V 10230 5050 50  0000 C CNN
+F 1 "R" V 10150 5050 50  0000 C CNN
+	1    10150 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED DW2
+U 1 1 516C84BF
+P 10750 4850
+F 0 "DW2" H 10650 4950 50  0000 C CNN
+F 1 "LED" H 10900 4750 50  0000 C CNN
+	1    10750 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R7
+U 1 1 516C84C5
+P 10150 4850
+F 0 "R7" V 10230 4850 50  0000 C CNN
+F 1 "R" V 10150 4850 50  0000 C CNN
+	1    10150 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED DW1
+U 1 1 516C84CD
+P 10750 4650
+F 0 "DW1" H 10650 4750 50  0000 C CNN
+F 1 "LED" H 10900 4550 50  0000 C CNN
+	1    10750 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R6
+U 1 1 516C84D3
+P 10150 4650
+F 0 "R6" V 10230 4650 50  0000 C CNN
+F 1 "R" V 10150 4650 50  0000 C CNN
+	1    10150 4650
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	8150 4200 7750 4200
 Wire Wire Line
@@ -1157,60 +1279,14 @@ Wire Wire Line
 	9450 2900 9850 2900
 Wire Wire Line
 	9850 3000 9450 3000
-Text Label 9500 2600 0    60   ~ 0
-row1
-Text Label 9500 2700 0    60   ~ 0
-row2
-Text Label 9500 2800 0    60   ~ 0
-row3
-Text Label 9500 2900 0    60   ~ 0
-row4
-Text Label 9500 3000 0    60   ~ 0
-row5
 Wire Bus Line
 	6300 6350 9350 6350
 Wire Bus Line
-	9350 6350 9350 5650
-$Comp
-L CONN_1 P16
-U 1 1 5137B43F
-P 10000 6100
-F 0 "P16" H 10080 6100 40  0000 L CNN
-F 1 "CONN_1" H 10000 6155 30  0001 C CNN
-	1    10000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P17
-U 1 1 5137B445
-P 10000 6200
-F 0 "P17" H 10080 6200 40  0000 L CNN
-F 1 "CONN_1" H 10000 6255 30  0001 C CNN
-	1    10000 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR026
-U 1 1 5137B7DB
-P 9700 6400
-F 0 "#PWR026" H 9700 6400 30  0001 C CNN
-F 1 "GND" H 9700 6330 30  0001 C CNN
-	1    9700 6400
-	1    0    0    -1  
-$EndComp
+	9350 6350 9350 4350
 Wire Wire Line
 	9850 6200 9700 6200
 Wire Wire Line
 	9700 6200 9700 6400
-$Comp
-L VCC #PWR027
-U 1 1 5137BDF3
-P 9200 5700
-F 0 "#PWR027" H 9200 5800 30  0001 C CNN
-F 1 "VCC" H 9200 5800 30  0000 C CNN
-	1    9200 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9650 6200 9650 6100
 Wire Wire Line
@@ -1219,4 +1295,47 @@ Wire Wire Line
 	9200 5700 9200 6200
 Wire Wire Line
 	9200 6200 9650 6200
+Wire Wire Line
+	9450 5250 9900 5250
+Wire Wire Line
+	10400 5250 10550 5250
+Wire Wire Line
+	10950 5250 11050 5250
+Wire Wire Line
+	10400 5050 10550 5050
+Wire Wire Line
+	10950 5050 11050 5050
+Wire Wire Line
+	10400 4850 10550 4850
+Wire Wire Line
+	10950 4850 11050 4850
+Wire Wire Line
+	10400 4650 10550 4650
+Wire Wire Line
+	10950 4650 11050 4650
+Wire Wire Line
+	9850 4650 9850 5250
+Wire Wire Line
+	9850 5050 9900 5050
+Connection ~ 9850 5250
+Wire Wire Line
+	9850 4850 9900 4850
+Connection ~ 9850 5050
+Wire Wire Line
+	9850 4650 9900 4650
+Connection ~ 9850 4850
+Wire Wire Line
+	11050 5250 11050 4400
+$Comp
+L VCC #PWR?
+U 1 1 516C9166
+P 11050 4400
+F 0 "#PWR?" H 11050 4500 30  0001 C CNN
+F 1 "VCC" H 11050 4500 30  0000 C CNN
+	1    11050 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 11050 4650
+Connection ~ 11050 4850
+Connection ~ 11050 5050
 $EndSCHEMATC

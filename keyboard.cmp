@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Wed 06 Mar 2013 09:44:54 PM CET
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Mon 15 Apr 2013 11:02:44 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -533,6 +533,34 @@ IdModule  = MX1A-ledlock;
 EndCmp
 
 BeginCmp
+TimeStamp = /516C84CD;
+Reference = DW1;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C84BF;
+Reference = DW2;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C8475;
+Reference = DW3;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C76BF;
+Reference = DW4;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
 TimeStamp = /4E9998BD;
 Reference = IC1;
 ValeurCmp = ATMEGA32U4;
@@ -698,6 +726,34 @@ TimeStamp = /4ED6BA73;
 Reference = R5;
 ValeurCmp = 10k;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C84D3;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C84C5;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C847B;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /516C77CB;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -967,15 +1023,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDC7;
-Reference = S41;
+TimeStamp = /4F60E920/50410564;
+Reference = S041;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/50410564;
-Reference = S041;
+TimeStamp = /4F60E920/5040DDC7;
+Reference = S41;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp

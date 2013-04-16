@@ -1,4 +1,4 @@
-update=Fri 02 Nov 2012 10:30:35 AM CET
+update=Mon 15 Apr 2013 11:03:23 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=3.9802
-PadSizeH=3.9802
-PadSizeV=3.9802
+PadDrill=1.0008
+PadSizeH=2
+PadSizeV=2
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -54,5 +54,6 @@ LibName5=ASX3F
 LibName6=molex-usb
 LibName7=TQFP44
 LibName8=SM0805
-LibName9=pad
-LibName10=fiducial
+LibName9=oshw_logo
+LibName10=pad
+LibName11=discret

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 02 Apr 2013 06:31:18 PM CEST
+# EESchema Netlist Version 1.1 created  Mon 15 Apr 2013 11:01:36 PM CEST
 (
  ( /4F08252F $noname  J1 MINI {Lib=USBMINI_B05}
   (    1 VCC )
@@ -8,9 +8,9 @@
   (    5 GND )
  )
  ( /4F081730 $noname  X1 ASX3F {Lib=ASX4}
-  (    1 N-000020 )
+  (    1 N-000023 )
   (    2 GND )
-  (    3 N-000021 )
+  (    3 N-000014 )
   (    4 GND )
  )
  ( /4ED6BA73 $noname  R5 10k {Lib=R}
@@ -22,15 +22,15 @@
   (    2 GND )
  )
  ( /4ED6A5CC $noname  C3 1u {Lib=C}
-  (    1 N-000017 )
+  (    1 N-000020 )
   (    2 GND )
  )
  ( /4ED6A3B8 $noname  R2 22 {Lib=R}
-  (    1 N-000018 )
+  (    1 N-000021 )
   (    2 N-000003 )
  )
  ( /4ED6A3B0 $noname  R1 22 {Lib=R}
-  (    1 N-000019 )
+  (    1 N-000022 )
   (    2 N-000002 )
  )
  ( /4EB2CECC $noname  C7 100n {Lib=C}
@@ -50,20 +50,20 @@
   (    2 GND )
  )
  ( /4E99B644 $noname  C2 22p {Lib=C}
-  (    1 N-000021 )
+  (    1 N-000014 )
   (    2 GND )
  )
  ( /4E99B63E $noname  C1 22p {Lib=C}
-  (    1 N-000020 )
+  (    1 N-000023 )
   (    2 GND )
  )
  ( /4E9998BD TQFP44  IC1 ATMEGA32U4 {Lib=ATMEGA32U4}
   (    1 /Matrix/col3 )
   (    2 VCC )
-  (    3 N-000019 )
-  (    4 N-000018 )
+  (    3 N-000022 )
+  (    4 N-000021 )
   (    5 GND )
-  (    6 N-000017 )
+  (    6 N-000020 )
   (    7 VCC )
   (    8 /Matrix/col9 )
   (    9 /Matrix/col8 )
@@ -73,8 +73,8 @@
   (   13 /~RES~ )
   (   14 VCC )
   (   15 GND )
-  (   16 N-000020 )
-  (   17 N-000021 )
+  (   16 N-000023 )
+  (   17 N-000014 )
   (   18 /Matrix/row1 )
   (   19 /Matrix/row2 )
   (   20 /Matrix/row3 )
@@ -164,617 +164,649 @@
  ( /5137B445 $noname  P17 CONN_1 {Lib=CONN_1}
   (    1 GND )
  )
+ ( /516C76BF $noname  DW4 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000004 )
+ )
+ ( /516C77CB $noname  R9 R {Lib=R}
+  (    1 /GPIO0 )
+  (    2 N-000004 )
+ )
+ ( /516C8475 $noname  DW3 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000017 )
+ )
+ ( /516C847B $noname  R8 R {Lib=R}
+  (    1 /GPIO0 )
+  (    2 N-000017 )
+ )
+ ( /516C84BF $noname  DW2 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000016 )
+ )
+ ( /516C84C5 $noname  R7 R {Lib=R}
+  (    1 /GPIO0 )
+  (    2 N-000016 )
+ )
+ ( /516C84CD $noname  DW1 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000015 )
+ )
+ ( /516C84D3 $noname  R6 R {Lib=R}
+  (    1 /GPIO0 )
+  (    2 N-000015 )
+ )
  ( /4F60E920/5040DD75 $noname  S01 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000059 )
+  (    2 N-000063 )
  )
  ( /4F60E920/5040DD84 $noname  S06 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000077 )
+  (    2 N-000081 )
  )
  ( /4F60E920/5040DD93 $noname  S11 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000078 )
+  (    2 N-000082 )
  )
  ( /4F60E920/5040DDA2 $noname  S16 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000041 )
+  (    2 N-000045 )
  )
  ( /4F60E920/5040DDAF $noname  S21 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000057 )
+  (    2 N-000061 )
  )
  ( /4F60E920/5040DDB5 $noname  S26 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000076 )
+  (    2 N-000080 )
  )
  ( /4F60E920/5040DDC1 $noname  S36 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000062 )
+  (    2 N-000066 )
  )
  ( /4F60E920/5040DDCD $noname  S46 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000054 )
+  (    2 N-000058 )
  )
  ( /4F60E920/5040DDD3 $noname  S51 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000084 )
+  (    2 N-000088 )
  )
  ( /4F60E920/5040DDD9 $noname  S56 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000094 )
+  (    2 N-000098 )
  )
  ( /4F60E920/5040DDDF $noname  S61 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000093 )
+  (    2 N-000097 )
  )
  ( /4F60E920/5040DDE5 $noname  S66 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000106 )
+  (    2 N-000110 )
  )
  ( /4F60E920/5040DDF7 $noname  S02 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000068 )
+  (    2 N-000072 )
  )
  ( /4F60E920/5040DDFD $noname  S07 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000069 )
+  (    2 N-000073 )
  )
  ( /4F60E920/5040DE03 $noname  S12 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000067 )
+  (    2 N-000071 )
  )
  ( /4F60E920/5040DE09 $noname  S17 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000045 )
+  (    2 N-000049 )
  )
  ( /4F60E920/5040DE0F $noname  S22 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000051 )
+  (    2 N-000055 )
  )
  ( /4F60E920/5040DE15 $noname  S27 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000042 )
+  (    2 N-000046 )
  )
  ( /4F60E920/5040DE1B $noname  S32 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000061 )
+  (    2 N-000065 )
  )
  ( /4F60E920/5040DE21 $noname  S37 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000049 )
+  (    2 N-000053 )
  )
  ( /4F60E920/5040DE27 $noname  S42 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000053 )
+  (    2 N-000057 )
  )
  ( /4F60E920/5040DE2D $noname  S47 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000055 )
+  (    2 N-000059 )
  )
  ( /4F60E920/5040DE33 $noname  S52 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000085 )
+  (    2 N-000089 )
  )
  ( /4F60E920/5040DE39 $noname  S57 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000092 )
+  (    2 N-000096 )
  )
  ( /4F60E920/5040DE3F $noname  S62 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000088 )
+  (    2 N-000092 )
  )
  ( /4F60E920/5040DE45 $noname  S67 MX1A {Lib=MX1A}
   (    1 /Matrix/row2 )
-  (    2 N-000083 )
+  (    2 N-000087 )
  )
  ( /4F60E920/5040DE57 $noname  S03 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000075 )
+  (    2 N-000079 )
  )
  ( /4F60E920/5040DE5D $noname  S08 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000070 )
+  (    2 N-000074 )
  )
  ( /4F60E920/5040DE63 $noname  S13 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000071 )
+  (    2 N-000075 )
  )
  ( /4F60E920/5040DE69 $noname  S18 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000046 )
+  (    2 N-000050 )
  )
  ( /4F60E920/5040DE6F $noname  S23 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000056 )
+  (    2 N-000060 )
  )
  ( /4F60E920/5040DE75 $noname  S28 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000043 )
+  (    2 N-000047 )
  )
  ( /4F60E920/5040DE7B $noname  S33 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000060 )
+  (    2 N-000064 )
  )
  ( /4F60E920/5040DE81 $noname  S38 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000050 )
+  (    2 N-000054 )
  )
  ( /4F60E920/5040DE87 $noname  S43 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000052 )
+  (    2 N-000056 )
  )
  ( /4F60E920/5040DE8D $noname  S48 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000086 )
+  (    2 N-000090 )
  )
  ( /4F60E920/5040DE93 $noname  S53 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000082 )
+  (    2 N-000086 )
  )
  ( /4F60E920/5040DE99 $noname  S58 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000081 )
+  (    2 N-000085 )
  )
  ( /4F60E920/5040DE9F $noname  S63 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000080 )
+  (    2 N-000084 )
  )
  ( /4F60E920/5040DEBD $noname  S09 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000072 )
+  (    2 N-000076 )
  )
  ( /4F60E920/5040DEC3 $noname  S14 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000073 )
+  (    2 N-000077 )
  )
  ( /4F60E920/5040DECF $noname  S24 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000095 )
+  (    2 N-000099 )
  )
  ( /4F60E920/5040DED5 $noname  S29 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000044 )
+  (    2 N-000048 )
  )
  ( /4F60E920/5040DEDB $noname  S34 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000096 )
+  (    2 N-000100 )
  )
  ( /4F60E920/5040DEE1 $noname  S39 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000097 )
+  (    2 N-000101 )
  )
  ( /4F60E920/5040DEE7 $noname  S44 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000087 )
+  (    2 N-000091 )
  )
  ( /4F60E920/5040DEED $noname  S49 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000089 )
+  (    2 N-000093 )
  )
  ( /4F60E920/5040DEF3 $noname  S54 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000090 )
+  (    2 N-000094 )
  )
  ( /4F60E920/5040DEF9 $noname  S59 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000091 )
+  (    2 N-000095 )
  )
  ( /4F60E920/5040DF05 $noname  S69 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000103 )
+  (    2 N-000107 )
  )
  ( /4F60E920/5040DF17 $noname  S05 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000063 )
+  (    2 N-000067 )
  )
  ( /4F60E920/5040DF1D $noname  S10 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000098 )
+  (    2 N-000102 )
  )
  ( /4F60E920/5040DF23 $noname  S15 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000064 )
+  (    2 N-000068 )
  )
  ( /4F60E920/5040DF53 $noname  S55 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000065 )
+  (    2 N-000069 )
  )
  ( /4F60E920/5040DF59 $noname  S60 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000105 )
+  (    2 N-000109 )
  )
  ( /4F60E920/5040DF5F $noname  S65 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000066 )
+  (    2 N-000070 )
  )
  ( /4F60E920/5040DF65 $noname  S70 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000074 )
+  (    2 N-000078 )
  )
  ( /4F60E920/5040E2D0 $noname  S641 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000102 )
+  (    2 N-000106 )
  )
  ( /4F60E920/5040E5A6 $noname  S681 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000099 )
+  (    2 N-000103 )
  )
  ( /4F60E920/5040ECF7 $noname  S0512 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000063 )
+  (    2 N-000067 )
  )
  ( /4F60E920/5040EEA3 $noname  S102 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000098 )
+  (    2 N-000102 )
  )
  ( /4F60E920/5040EEA9 $noname  S101 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000098 )
+  (    2 N-000102 )
  )
  ( /4F60E920/5040F08D $noname  S552 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000065 )
+  (    2 N-000069 )
  )
  ( /4F60E920/5040F09E $noname  S602 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000105 )
+  (    2 N-000109 )
  )
  ( /4F60E920/5040F14F $noname  S151 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000064 )
+  (    2 N-000068 )
  )
  ( /4F60E920/5040F1A3 $noname  S6512 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000066 )
+  (    2 N-000070 )
  )
  ( /4F60E920/5040F1FA $noname  S7012 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000074 )
+  (    2 N-000078 )
  )
  ( /4F60E920/5040FAEC $noname  S301 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000100 )
+  (    2 N-000104 )
  )
  ( /4F60E920/5040FAF4 $noname  S302 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000100 )
+  (    2 N-000104 )
  )
  ( /4F60E920/50410564 $noname  S041 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000101 )
+  (    2 N-000105 )
  )
  ( /4F60E920/5040DEFF $noname  S64 MX1A {Lib=MX1A}
-  (    1 N-000102 )
+  (    1 N-000106 )
   (    2 /Matrix/row4 )
  )
  ( /4F60E920/5040DEB7 $noname  S04 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000101 )
+  (    2 N-000105 )
  )
  ( /4F60E920/5040DEA5 $noname  S68 MX1A {Lib=MX1A}
   (    1 /Matrix/row3 )
-  (    2 N-000099 )
+  (    2 N-000103 )
  )
  ( /4F60E920/5040DF35 $noname  S30 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000100 )
+  (    2 N-000104 )
  )
  ( /4F60E920/5042A9E4 $noname  S031 MX1A {Lib=MX1A}
-  (    1 N-000075 )
+  (    1 N-000079 )
   (    2 /Matrix/row3 )
  )
  ( /4F60E920/5042BB59 $noname  DC1 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000104 )
+  (    2 N-000108 )
  )
  ( /4F60E920/5042BEB0 $noname  DC2 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000104 )
+  (    2 N-000108 )
  )
  ( /4F60E920/5043A0D0 $noname  R4 300 {Lib=R}
-  (    1 N-000104 )
+  (    1 N-000108 )
   (    2 /Matrix/CAPS_LED )
  )
  ( /4F60E920/5040DDC7 $noname  S41 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000048 )
+  (    2 N-000052 )
  )
  ( /4F60E920/5040DDBB $noname  S31 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000058 )
+  (    2 N-000062 )
  )
  ( /4F60E920/5051FE50 $noname  S691 MX1A {Lib=MX1A}
-  (    1 N-000103 )
+  (    1 N-000107 )
   (    2 /Matrix/row4 )
  )
  ( /4F60E920/5051FE56 $noname  S692 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000103 )
+  (    2 N-000107 )
  )
  ( /4F60E920/506B1C22 $noname  D06 1N4148 {Lib=DIODE}
   (    1 /Matrix/col2 )
-  (    2 N-000077 )
+  (    2 N-000081 )
  )
  ( /4F60E920/506B1C2B $noname  D11 1N4148 {Lib=DIODE}
   (    1 /Matrix/col3 )
-  (    2 N-000078 )
+  (    2 N-000082 )
  )
  ( /4F60E920/506B1C34 $noname  D02 1N4148 {Lib=DIODE}
   (    1 /Matrix/col1 )
-  (    2 N-000068 )
+  (    2 N-000072 )
  )
  ( /4F60E920/506B1C3D $noname  D04 1N4148 {Lib=DIODE}
   (    1 /Matrix/col1 )
-  (    2 N-000101 )
+  (    2 N-000105 )
  )
  ( /4F60E920/506B1C46 $noname  D07 1N4148 {Lib=DIODE}
   (    1 /Matrix/col2 )
-  (    2 N-000069 )
+  (    2 N-000073 )
  )
  ( /4F60E920/506B1C4F $noname  D08 1N4148 {Lib=DIODE}
   (    1 /Matrix/col2 )
-  (    2 N-000070 )
+  (    2 N-000074 )
  )
  ( /4F60E920/506B4278 $noname  D12 1N4148 {Lib=DIODE}
   (    1 /Matrix/col3 )
-  (    2 N-000067 )
+  (    2 N-000071 )
  )
  ( /4F60E920/506B4281 $noname  D13 1N4148 {Lib=DIODE}
   (    1 /Matrix/col3 )
-  (    2 N-000071 )
+  (    2 N-000075 )
  )
  ( /4F60E920/506B428A $noname  D09 1N4148 {Lib=DIODE}
   (    1 /Matrix/col2 )
-  (    2 N-000072 )
+  (    2 N-000076 )
  )
  ( /4F60E920/506B4293 $noname  D14 1N4148 {Lib=DIODE}
   (    1 /Matrix/col3 )
-  (    2 N-000073 )
+  (    2 N-000077 )
  )
  ( /4F60E920/506B42A5 $noname  D26 1N4148 {Lib=DIODE}
   (    1 /Matrix/col6 )
-  (    2 N-000076 )
+  (    2 N-000080 )
  )
  ( /4F60E920/506B42AE $noname  D27 1N4148 {Lib=DIODE}
   (    1 /Matrix/col6 )
-  (    2 N-000042 )
+  (    2 N-000046 )
  )
  ( /4F60E920/506B42B7 $noname  D28 1N4148 {Lib=DIODE}
   (    1 /Matrix/col6 )
-  (    2 N-000043 )
+  (    2 N-000047 )
  )
  ( /4F60E920/506B42C0 $noname  D29 1N4148 {Lib=DIODE}
   (    1 /Matrix/col6 )
-  (    2 N-000044 )
+  (    2 N-000048 )
  )
  ( /4F60E920/5040DEC9 $noname  S19 MX1A {Lib=MX1A}
   (    1 /Matrix/row4 )
-  (    2 N-000047 )
+  (    2 N-000051 )
  )
  ( /4F60E920/506B438B $noname  D16 1N4148 {Lib=DIODE}
   (    1 /Matrix/col4 )
-  (    2 N-000041 )
+  (    2 N-000045 )
  )
  ( /4F60E920/506B4394 $noname  D17 1N4148 {Lib=DIODE}
   (    1 /Matrix/col4 )
-  (    2 N-000045 )
+  (    2 N-000049 )
  )
  ( /4F60E920/506B439D $noname  D18 1N4148 {Lib=DIODE}
   (    1 /Matrix/col4 )
-  (    2 N-000046 )
+  (    2 N-000050 )
  )
  ( /4F60E920/506B43A6 $noname  D19 1N4148 {Lib=DIODE}
   (    1 /Matrix/col4 )
-  (    2 N-000047 )
+  (    2 N-000051 )
  )
  ( /4F60E920/506B5911 $noname  D21 1N4148 {Lib=DIODE}
   (    1 /Matrix/col5 )
-  (    2 N-000057 )
+  (    2 N-000061 )
  )
  ( /4F60E920/506B591A $noname  D31 1N4148 {Lib=DIODE}
   (    1 /Matrix/col7 )
-  (    2 N-000058 )
+  (    2 N-000062 )
  )
  ( /4F60E920/506B5923 $noname  D01 1N4148 {Lib=DIODE}
   (    1 /Matrix/col1 )
-  (    2 N-000059 )
+  (    2 N-000063 )
  )
  ( /4F60E920/506B592C $noname  D23 1N4148 {Lib=DIODE}
   (    1 /Matrix/col5 )
-  (    2 N-000056 )
+  (    2 N-000060 )
  )
  ( /4F60E920/506B5935 $noname  D33 1N4148 {Lib=DIODE}
   (    1 /Matrix/col7 )
-  (    2 N-000060 )
+  (    2 N-000064 )
  )
  ( /4F60E920/506B593E $noname  D32 1N4148 {Lib=DIODE}
   (    1 /Matrix/col7 )
-  (    2 N-000061 )
+  (    2 N-000065 )
  )
  ( /4F60E920/506B5947 $noname  D36 1N4148 {Lib=DIODE}
   (    1 /Matrix/col8 )
-  (    2 N-000062 )
+  (    2 N-000066 )
  )
  ( /4F60E920/506B5950 $noname  D41 1N4148 {Lib=DIODE}
   (    1 /Matrix/col9 )
-  (    2 N-000048 )
+  (    2 N-000052 )
  )
  ( /4F60E920/506B5959 $noname  D37 1N4148 {Lib=DIODE}
   (    1 /Matrix/col8 )
-  (    2 N-000049 )
+  (    2 N-000053 )
  )
  ( /4F60E920/506B5962 $noname  D38 1N4148 {Lib=DIODE}
   (    1 /Matrix/col8 )
-  (    2 N-000050 )
+  (    2 N-000054 )
  )
  ( /4F60E920/506B596B $noname  D22 1N4148 {Lib=DIODE}
   (    1 /Matrix/col5 )
-  (    2 N-000051 )
+  (    2 N-000055 )
  )
  ( /4F60E920/506B5974 $noname  D43 1N4148 {Lib=DIODE}
   (    1 /Matrix/col9 )
-  (    2 N-000052 )
+  (    2 N-000056 )
  )
  ( /4F60E920/506B597D $noname  D42 1N4148 {Lib=DIODE}
   (    1 /Matrix/col9 )
-  (    2 N-000053 )
+  (    2 N-000057 )
  )
  ( /4F60E920/506B5986 $noname  D46 1N4148 {Lib=DIODE}
   (    1 /Matrix/col10 )
-  (    2 N-000054 )
+  (    2 N-000058 )
  )
  ( /4F60E920/506B598F $noname  D47 1N4148 {Lib=DIODE}
   (    1 /Matrix/col10 )
-  (    2 N-000055 )
+  (    2 N-000059 )
  )
  ( /4F60E920/506B5998 $noname  D51 1N4148 {Lib=DIODE}
   (    1 /Matrix/col11 )
-  (    2 N-000084 )
+  (    2 N-000088 )
  )
  ( /4F60E920/506B59A1 $noname  D52 1N4148 {Lib=DIODE}
   (    1 /Matrix/col11 )
-  (    2 N-000085 )
+  (    2 N-000089 )
  )
  ( /4F60E920/506B59AA $noname  D48 1N4148 {Lib=DIODE}
   (    1 /Matrix/col10 )
-  (    2 N-000086 )
+  (    2 N-000090 )
  )
  ( /4F60E920/506B59B3 $noname  D44 1N4148 {Lib=DIODE}
   (    1 /Matrix/col9 )
-  (    2 N-000087 )
+  (    2 N-000091 )
  )
  ( /4F60E920/506B59BC $noname  D49 1N4148 {Lib=DIODE}
   (    1 /Matrix/col10 )
-  (    2 N-000089 )
+  (    2 N-000093 )
  )
  ( /4F60E920/506B59C5 $noname  D54 1N4148 {Lib=DIODE}
   (    1 /Matrix/col11 )
-  (    2 N-000090 )
+  (    2 N-000094 )
  )
  ( /4F60E920/506B59CE $noname  D59 1N4148 {Lib=DIODE}
   (    1 /Matrix/col12 )
-  (    2 N-000091 )
+  (    2 N-000095 )
  )
  ( /4F60E920/506B59D7 $noname  D64 1N4148 {Lib=DIODE}
   (    1 /Matrix/col13 )
-  (    2 N-000102 )
+  (    2 N-000106 )
  )
  ( /4F60E920/506B59E0 $noname  D69 1N4148 {Lib=DIODE}
   (    1 /Matrix/col14 )
-  (    2 N-000103 )
+  (    2 N-000107 )
  )
  ( /4F60E920/506B59E9 $noname  D70 1N4148 {Lib=DIODE}
   (    1 /Matrix/col14 )
-  (    2 N-000074 )
+  (    2 N-000078 )
  )
  ( /4F60E920/506B59F2 $noname  D65 1N4148 {Lib=DIODE}
   (    1 /Matrix/col13 )
-  (    2 N-000066 )
+  (    2 N-000070 )
  )
  ( /4F60E920/506B59FB $noname  D60 1N4148 {Lib=DIODE}
   (    1 /Matrix/col12 )
-  (    2 N-000105 )
+  (    2 N-000109 )
  )
  ( /4F60E920/506B5A04 $noname  D55 1N4148 {Lib=DIODE}
   (    1 /Matrix/col11 )
-  (    2 N-000065 )
+  (    2 N-000069 )
  )
  ( /4F60E920/506B5A16 $noname  D68 1N4148 {Lib=DIODE}
   (    1 /Matrix/col14 )
-  (    2 N-000099 )
+  (    2 N-000103 )
  )
  ( /4F60E920/506B5A1F $noname  D63 1N4148 {Lib=DIODE}
   (    1 /Matrix/col13 )
-  (    2 N-000080 )
+  (    2 N-000084 )
  )
  ( /4F60E920/506B5A28 $noname  D58 1N4148 {Lib=DIODE}
   (    1 /Matrix/col12 )
-  (    2 N-000081 )
+  (    2 N-000085 )
  )
  ( /4F60E920/506B5A31 $noname  D53 1N4148 {Lib=DIODE}
   (    1 /Matrix/col11 )
-  (    2 N-000082 )
+  (    2 N-000086 )
  )
  ( /4F60E920/506B5A3A $noname  D67 1N4148 {Lib=DIODE}
   (    1 /Matrix/col14 )
-  (    2 N-000083 )
+  (    2 N-000087 )
  )
  ( /4F60E920/506B5A43 $noname  D62 1N4148 {Lib=DIODE}
   (    1 /Matrix/col13 )
-  (    2 N-000088 )
+  (    2 N-000092 )
  )
  ( /4F60E920/506B5A4C $noname  D57 1N4148 {Lib=DIODE}
   (    1 /Matrix/col12 )
-  (    2 N-000092 )
+  (    2 N-000096 )
  )
  ( /4F60E920/506B5A55 $noname  D66 1N4148 {Lib=DIODE}
   (    1 /Matrix/col14 )
-  (    2 N-000106 )
+  (    2 N-000110 )
  )
  ( /4F60E920/506B5A5E $noname  D61 1N4148 {Lib=DIODE}
   (    1 /Matrix/col13 )
-  (    2 N-000093 )
+  (    2 N-000097 )
  )
  ( /4F60E920/506B5A67 $noname  D56 1N4148 {Lib=DIODE}
   (    1 /Matrix/col12 )
-  (    2 N-000094 )
+  (    2 N-000098 )
  )
  ( /4F60E920/506B5A70 $noname  D24 1N4148 {Lib=DIODE}
   (    1 /Matrix/col5 )
-  (    2 N-000095 )
+  (    2 N-000099 )
  )
  ( /4F60E920/506B5A79 $noname  D34 1N4148 {Lib=DIODE}
   (    1 /Matrix/col7 )
-  (    2 N-000096 )
+  (    2 N-000100 )
  )
  ( /4F60E920/506B5A82 $noname  D39 1N4148 {Lib=DIODE}
   (    1 /Matrix/col8 )
-  (    2 N-000097 )
+  (    2 N-000101 )
  )
  ( /4F60E920/506B5A8B $noname  D05 1N4148 {Lib=DIODE}
   (    1 /Matrix/col1 )
-  (    2 N-000063 )
+  (    2 N-000067 )
  )
  ( /4F60E920/506B5A94 $noname  D10 1N4148 {Lib=DIODE}
   (    1 /Matrix/col2 )
-  (    2 N-000098 )
+  (    2 N-000102 )
  )
  ( /4F60E920/506B5A9D $noname  D15 1N4148 {Lib=DIODE}
   (    1 /Matrix/col3 )
-  (    2 N-000064 )
+  (    2 N-000068 )
  )
  ( /4F60E920/506B5D8C $noname  D30 1N4148 {Lib=DIODE}
   (    1 /Matrix/col6 )
-  (    2 N-000100 )
+  (    2 N-000104 )
  )
  ( /4F60E920/506B5DE9 $noname  D03 1N4148 {Lib=DIODE}
   (    1 /Matrix/col1 )
-  (    2 N-000075 )
+  (    2 N-000079 )
  )
  ( /4F60E920/506E072F $noname  DC3 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000104 )
+  (    2 N-000108 )
  )
  ( /4F60E920/50871329 $noname  S682 MX1A {Lib=MX1A}
-  (    1 N-000099 )
+  (    1 N-000103 )
   (    2 /Matrix/row3 )
  )
  ( /4F60E920/5040F098 $noname  S601 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000105 )
+  (    2 N-000109 )
  )
  ( /4F60E920/51374D98 $noname  S661 MX1A {Lib=MX1A}
   (    1 /Matrix/row1 )
-  (    2 N-000106 )
+  (    2 N-000110 )
  )
  ( /4F60E920/51374F44 $noname  S50 MX1A {Lib=MX1A}
   (    1 /Matrix/row5 )
-  (    2 N-000079 )
+  (    2 N-000083 )
  )
  ( /4F60E920/51374F62 $noname  D50 1N4148 {Lib=DIODE}
   (    1 /Matrix/col10 )
-  (    2 N-000079 )
+  (    2 N-000083 )
  )
 )
 *
@@ -852,6 +884,70 @@ $component C8
  SM*
  C?
  C1-1
+$endlist
+$component DW4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component DW3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component DW2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component DW1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component DC1
  LED-3MM
@@ -1151,504 +1247,524 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "" ""
- IC1 33
  R3 1
+ IC1 33
 Net 2 "" ""
  J1 2
  R1 2
 Net 3 "" ""
  J1 3
  R2 2
-Net 4 "/GPIO1" "GPIO1"
- IC1 37
- P8 1
-Net 5 "/GPIO0" "GPIO0"
- IC1 36
- P7 1
-Net 6 "/GPIO3" "GPIO3"
- P10 1
- IC1 39
-Net 7 "/GPIO2" "GPIO2"
- P9 1
- IC1 38
-Net 8 "/Matrix/col12" "col12"
- D56 1
- D58 1
- IC1 27
- D57 1
- D59 1
- D60 1
-Net 9 "/Matrix/col8" "col8"
- D38 1
- D36 1
- IC1 9
- D37 1
- P3 1
- D39 1
-Net 10 "VCC" "VCC"
- IC1 7
- J1 1
- R5 1
- DC2 1
- DC1 1
- IC1 44
- IC1 34
- IC1 24
- C4 1
- C5 1
- C6 1
- C7 1
- IC1 14
- IC1 2
- P2 1
- P16 1
- DC3 1
- C8 1
-Net 11 "GND" "GND"
- J1 5
- C2 2
- C1 2
- R3 2
- C3 2
- X1 4
- IC1 35
- X1 2
- IC1 15
- S0 1
- C6 2
- C5 2
- C7 2
- P17 1
+Net 4 "" ""
+ DW4 2
+ R9 2
+Net 5 "GND" "GND"
  IC1 5
+ IC1 23
+ IC1 43
+ C2 2
+ S0 1
+ C1 2
+ C3 2
+ P17 1
  C8 2
  P6 1
- IC1 43
- IC1 23
+ J1 5
+ X1 2
+ X1 4
+ IC1 15
+ IC1 35
+ C7 2
+ C6 2
+ C5 2
  C4 2
-Net 12 "/Matrix/row5" "row5"
- S30 1
- S70 1
- S15 1
- IC1 22
- S05 1
- S602 1
- S6512 1
- S7012 1
- S301 1
- S302 1
+ R3 2
+Net 6 "/Matrix/row5" "row5"
  S65 1
- S552 1
+ S15 1
  S10 1
+ S05 1
+ S302 1
+ S301 1
+ S7012 1
+ S6512 1
  S151 1
+ S602 1
  S55 1
- S101 1
  S60 1
- S50 1
- S601 1
- P15 1
- S0512 1
+ S552 1
+ S70 1
+ S101 1
  S102 1
-Net 13 "/Matrix/row4" "row4"
+ S0512 1
+ S601 1
+ IC1 22
+ P15 1
+ S30 1
+ S50 1
+Net 7 "/Matrix/row4" "row4"
+ S19 1
+ S09 1
+ S49 1
+ S44 1
+ S14 1
+ S39 1
+ S34 1
+ S29 1
+ S692 1
+ S04 1
+ S24 1
+ S691 2
  S641 1
  IC1 21
  S64 2
+ P14 1
  S69 1
  S59 1
  S54 1
  S041 1
- S49 1
- S44 1
- S39 1
- S34 1
- S19 1
- S29 1
- S691 2
- S692 1
- S04 1
- S09 1
- S14 1
- S24 1
- P14 1
-Net 14 "/Matrix/row3" "row3"
- S63 1
- S18 1
- S03 1
- S33 1
+Net 8 "/Matrix/row3" "row3"
+ S681 1
+ S68 1
+ S031 2
  P13 1
- S682 2
- S43 1
+ IC1 20
+ S18 1
  S38 1
+ S33 1
+ S63 1
+ S43 1
+ S58 1
+ S53 1
+ S682 2
  S28 1
  S23 1
  S13 1
- S08 1
- IC1 20
  S48 1
- S53 1
- S031 2
- S58 1
- S68 1
- S681 1
-Net 15 "/Matrix/row2" "row2"
- P12 1
- S02 1
- S07 1
- S12 1
- S27 1
- S57 1
- S62 1
- S67 1
- S52 1
- S47 1
- S42 1
- S37 1
+ S03 1
+ S08 1
+Net 9 "/Matrix/row2" "row2"
  S32 1
  IC1 19
+ S37 1
+ S52 1
+ S07 1
+ S42 1
+ S02 1
+ S47 1
+ S67 1
  S22 1
+ S27 1
+ S57 1
+ P12 1
  S17 1
-Net 16 "/Matrix/row1" "row1"
- S41 1
- S51 1
- S31 1
- S66 1
- S01 1
+ S12 1
+ S62 1
+Net 10 "/Matrix/row1" "row1"
+ IC1 18
  S06 1
- S11 1
- S16 1
- S21 1
+ S01 1
  S26 1
  S36 1
  S46 1
+ S51 1
  S56 1
+ P11 1
+ S66 1
  S61 1
  S661 1
- IC1 18
- P11 1
-Net 17 "" ""
- IC1 6
- C3 1
-Net 18 "" ""
- R2 1
- IC1 4
-Net 19 "" ""
- R1 1
- IC1 3
-Net 20 "" ""
- X1 1
- C1 1
- IC1 16
-Net 21 "" ""
+ S31 1
+ S41 1
+ S11 1
+ S16 1
+ S21 1
+Net 11 "/GPIO1" "GPIO1"
+ P8 1
+ IC1 37
+Net 12 "/GPIO3" "GPIO3"
+ P10 1
+ IC1 39
+Net 13 "/GPIO2" "GPIO2"
+ P9 1
+ IC1 38
+Net 14 "" ""
  X1 3
  C2 1
  IC1 17
-Net 23 "/Matrix/col11" "col11"
- D55 1
- D51 1
- D54 1
- D52 1
- IC1 28
- D53 1
-Net 24 "/Matrix/CAPS_LED" "CAPS_LED"
- P4 1
- R4 2
- IC1 10
+Net 15 "" ""
+ DW1 2
+ R6 2
+Net 16 "" ""
+ DW2 2
+ R7 2
+Net 17 "" ""
+ DW3 2
+ R8 2
+Net 18 "VCC" "VCC"
+ DC3 1
+ DW4 1
+ C7 1
+ P16 1
+ C4 1
+ J1 1
+ IC1 2
+ C6 1
+ IC1 7
+ C5 1
+ C8 1
+ R5 1
+ DW2 1
+ DW3 1
+ DW1 1
+ P2 1
+ DC1 1
+ DC2 1
+ IC1 44
+ IC1 34
+ IC1 24
+ IC1 14
+Net 19 "/GPIO0" "GPIO0"
+ R7 1
+ P7 1
+ R6 1
+ IC1 36
+ R9 1
+ R8 1
+Net 20 "" ""
+ IC1 6
+ C3 1
+Net 21 "" ""
+ R2 1
+ IC1 4
+Net 22 "" ""
+ IC1 3
+ R1 1
+Net 23 "" ""
+ C1 1
+ IC1 16
+ X1 1
 Net 25 "/Matrix/col14" "col14"
+ D66 1
  D69 1
+ D70 1
+ D67 1
+ P1 1
  IC1 11
  D68 1
- P1 1
- D67 1
- D66 1
- D70 1
-Net 27 "/~RES~" "~RES~"
- P5 1
+Net 26 "/~RES~" "~RES~"
+ S0 3
  R5 2
  IC1 13
- S0 3
-Net 30 "/Matrix/col2" "col2"
- D07 1
- D08 1
- D09 1
- D10 1
- D06 1
- IC1 40
-Net 31 "/Matrix/col10" "col10"
- D49 1
- D48 1
- D46 1
- D50 1
- D47 1
- IC1 29
-Net 32 "/Matrix/col13" "col13"
- D62 1
- D61 1
- D63 1
- IC1 26
- D64 1
- D65 1
-Net 33 "/Matrix/col7" "col7"
- D33 1
- D32 1
- D31 1
- D34 1
- IC1 25
-Net 34 "/Matrix/col9" "col9"
- IC1 8
- D41 1
- D43 1
- D42 1
- D44 1
-Net 35 "/Matrix/col6" "col6"
- D29 1
- D30 1
- IC1 30
- D27 1
- D26 1
- D28 1
-Net 36 "/Matrix/col5" "col5"
- IC1 31
- D23 1
- D22 1
- D24 1
- D21 1
-Net 37 "/Matrix/col4" "col4"
+ P5 1
+Net 28 "/Matrix/col4" "col4"
  D19 1
+ IC1 32
  D18 1
  D17 1
  D16 1
- IC1 32
-Net 38 "/Matrix/col3" "col3"
- D15 1
- D12 1
- D13 1
- D14 1
+Net 29 "/Matrix/col8" "col8"
+ D37 1
+ D36 1
+ IC1 9
+ P3 1
+ D38 1
+ D39 1
+Net 30 "/Matrix/col7" "col7"
+ D31 1
+ D32 1
+ D33 1
+ D34 1
+ IC1 25
+Net 31 "/Matrix/col12" "col12"
+ D60 1
+ D59 1
+ D56 1
+ IC1 27
+ D57 1
+ D58 1
+Net 32 "/Matrix/col11" "col11"
+ D52 1
+ D51 1
+ D55 1
+ D54 1
+ D53 1
+ IC1 28
+Net 33 "/Matrix/col10" "col10"
+ D47 1
+ IC1 29
+ D48 1
+ D50 1
+ D46 1
+ D49 1
+Net 34 "/Matrix/col6" "col6"
+ D26 1
+ D27 1
+ D30 1
+ D28 1
+ D29 1
+ IC1 30
+Net 35 "/Matrix/col5" "col5"
+ D24 1
+ D23 1
+ D21 1
+ D22 1
+ IC1 31
+Net 36 "/Matrix/col3" "col3"
  IC1 1
+ D15 1
  D11 1
-Net 39 "/Matrix/col1" "col1"
- D03 1
- D05 1
+ D14 1
+ D13 1
+ D12 1
+Net 37 "/Matrix/col2" "col2"
+ D06 1
+ D10 1
+ IC1 40
+ D09 1
+ D07 1
+ D08 1
+Net 38 "/Matrix/col1" "col1"
  D04 1
- IC1 41
- D02 1
  D01 1
-Net 41 "" ""
- S16 2
+ D05 1
+ IC1 41
+ D03 1
+ D02 1
+Net 39 "/Matrix/col9" "col9"
+ D43 1
+ D42 1
+ D44 1
+ IC1 8
+ D41 1
+Net 40 "/Matrix/CAPS_LED" "CAPS_LED"
+ IC1 10
+ P4 1
+ R4 2
+Net 41 "/Matrix/col13" "col13"
+ D64 1
+ D65 1
+ D62 1
+ D63 1
+ IC1 26
+ D61 1
+Net 45 "" ""
  D16 2
-Net 42 "" ""
+ S16 2
+Net 46 "" ""
  D27 2
  S27 2
-Net 43 "" ""
+Net 47 "" ""
  S28 2
  D28 2
-Net 44 "" ""
- S29 2
+Net 48 "" ""
  D29 2
-Net 45 "" ""
+ S29 2
+Net 49 "" ""
  D17 2
  S17 2
-Net 46 "" ""
- S18 2
+Net 50 "" ""
  D18 2
-Net 47 "" ""
- S19 2
+ S18 2
+Net 51 "" ""
  D19 2
-Net 48 "" ""
+ S19 2
+Net 52 "" ""
  D41 2
  S41 2
-Net 49 "" ""
+Net 53 "" ""
  S37 2
  D37 2
-Net 50 "" ""
+Net 54 "" ""
  D38 2
  S38 2
-Net 51 "" ""
+Net 55 "" ""
  S22 2
  D22 2
-Net 52 "" ""
- D43 2
+Net 56 "" ""
  S43 2
-Net 53 "" ""
+ D43 2
+Net 57 "" ""
  S42 2
  D42 2
-Net 54 "" ""
+Net 58 "" ""
  S46 2
  D46 2
-Net 55 "" ""
+Net 59 "" ""
  S47 2
  D47 2
-Net 56 "" ""
+Net 60 "" ""
  D23 2
  S23 2
-Net 57 "" ""
+Net 61 "" ""
  S21 2
  D21 2
-Net 58 "" ""
- S31 2
+Net 62 "" ""
  D31 2
-Net 59 "" ""
- D01 2
+ S31 2
+Net 63 "" ""
  S01 2
-Net 60 "" ""
+ D01 2
+Net 64 "" ""
  S33 2
  D33 2
-Net 61 "" ""
+Net 65 "" ""
  S32 2
  D32 2
-Net 62 "" ""
- D36 2
- S36 2
-Net 63 "" ""
- D05 2
- S0512 2
- S05 2
-Net 64 "" ""
- S15 2
- D15 2
- S151 2
-Net 65 "" ""
- S552 2
- S55 2
- D55 2
 Net 66 "" ""
- D65 2
+ S36 2
+ D36 2
+Net 67 "" ""
+ S0512 2
+ D05 2
+ S05 2
+Net 68 "" ""
+ D15 2
+ S15 2
+ S151 2
+Net 69 "" ""
+ S552 2
+ D55 2
+ S55 2
+Net 70 "" ""
  S65 2
  S6512 2
-Net 67 "" ""
- S12 2
+ D65 2
+Net 71 "" ""
  D12 2
-Net 68 "" ""
+ S12 2
+Net 72 "" ""
  D02 2
  S02 2
-Net 69 "" ""
+Net 73 "" ""
  D07 2
  S07 2
-Net 70 "" ""
+Net 74 "" ""
  D08 2
  S08 2
-Net 71 "" ""
- D13 2
+Net 75 "" ""
  S13 2
-Net 72 "" ""
- S09 2
+ D13 2
+Net 76 "" ""
  D09 2
-Net 73 "" ""
- D14 2
+ S09 2
+Net 77 "" ""
  S14 2
-Net 74 "" ""
+ D14 2
+Net 78 "" ""
  D70 2
  S70 2
  S7012 2
-Net 75 "" ""
+Net 79 "" ""
+ S03 2
  S031 1
  D03 2
- S03 2
-Net 76 "" ""
- S26 2
- D26 2
-Net 77 "" ""
- S06 2
- D06 2
-Net 78 "" ""
- D11 2
- S11 2
-Net 79 "" ""
- D50 2
- S50 2
 Net 80 "" ""
- D63 2
- S63 2
+ D26 2
+ S26 2
 Net 81 "" ""
+ D06 2
+ S06 2
+Net 82 "" ""
+ S11 2
+ D11 2
+Net 83 "" ""
+ S50 2
+ D50 2
+Net 84 "" ""
+ S63 2
+ D63 2
+Net 85 "" ""
  S58 2
  D58 2
-Net 82 "" ""
- D53 2
+Net 86 "" ""
  S53 2
-Net 83 "" ""
+ D53 2
+Net 87 "" ""
  S67 2
  D67 2
-Net 84 "" ""
+Net 88 "" ""
  D51 2
  S51 2
-Net 85 "" ""
- S52 2
+Net 89 "" ""
  D52 2
-Net 86 "" ""
- D48 2
+ S52 2
+Net 90 "" ""
  S48 2
-Net 87 "" ""
- S44 2
+ D48 2
+Net 91 "" ""
  D44 2
-Net 88 "" ""
+ S44 2
+Net 92 "" ""
  S62 2
  D62 2
-Net 89 "" ""
+Net 93 "" ""
  D49 2
  S49 2
-Net 90 "" ""
+Net 94 "" ""
  S54 2
  D54 2
-Net 91 "" ""
+Net 95 "" ""
  D59 2
  S59 2
-Net 92 "" ""
- S57 2
+Net 96 "" ""
  D57 2
-Net 93 "" ""
- S61 2
+ S57 2
+Net 97 "" ""
  D61 2
-Net 94 "" ""
+ S61 2
+Net 98 "" ""
  S56 2
  D56 2
-Net 95 "" ""
- S24 2
+Net 99 "" ""
  D24 2
-Net 96 "" ""
- D34 2
+ S24 2
+Net 100 "" ""
  S34 2
-Net 97 "" ""
+ D34 2
+Net 101 "" ""
  S39 2
  D39 2
-Net 98 "" ""
- D10 2
+Net 102 "" ""
  S10 2
- S101 2
  S102 2
-Net 99 "" ""
- S682 1
- S681 2
+ S101 2
+ D10 2
+Net 103 "" ""
  D68 2
+ S681 2
+ S682 1
  S68 2
-Net 100 "" ""
- S301 2
- D30 2
+Net 104 "" ""
  S30 2
+ D30 2
+ S301 2
  S302 2
-Net 101 "" ""
+Net 105 "" ""
  D04 2
  S041 2
  S04 2
-Net 102 "" ""
- S64 1
+Net 106 "" ""
  D64 2
+ S64 1
  S641 2
-Net 103 "" ""
+Net 107 "" ""
  S69 2
  S691 1
- S692 2
  D69 2
-Net 104 "" ""
+ S692 2
+Net 108 "" ""
  R4 1
  DC2 2
- DC1 2
  DC3 2
-Net 105 "" ""
- S60 2
- S602 2
+ DC1 2
+Net 109 "" ""
  S601 2
+ S602 2
+ S60 2
  D60 2
-Net 106 "" ""
+Net 110 "" ""
+ S66 2
  S661 2
  D66 2
- S66 2
 }
 #End
