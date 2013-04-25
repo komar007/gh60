@@ -1,4 +1,4 @@
-update=Mon 15 Apr 2013 11:03:23 PM CEST
+update=Thu 25 Apr 2013 07:15:54 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=1.0008
-PadSizeH=2
-PadSizeV=2
+PadDrill=1
+PadSizeH=1
+PadSizeV=1
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -57,3 +57,4 @@ LibName8=SM0805
 LibName9=oshw_logo
 LibName10=pad
 LibName11=discret
+LibName12=natconn

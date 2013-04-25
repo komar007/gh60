@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Mon 15 Apr 2013 11:02:44 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Thu 25 Apr 2013 07:20:51 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -571,7 +571,7 @@ BeginCmp
 TimeStamp = /4F08252F;
 Reference = J1;
 ValeurCmp = MINI;
-IdModule  = 54819;
+IdModule  = U24-05XXX-1;
 EndCmp
 
 BeginCmp
