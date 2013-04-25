@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Apr 2013 12:34:52 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Apr 2013 12:54:34 AM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -549,6 +549,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5179BCCC;
 Reference = DF3;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179BF27;
+Reference = DF11;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
