@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 15 Apr 2013 11:01:31 PM CEST
+EESchema Schematic File Version 2  date Fri 26 Apr 2013 12:03:40 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "15 apr 2013"
+Date "25 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -792,10 +792,10 @@ col13
 Text HLabel 12700 1400 1    60   3State ~ 0
 col14
 $Comp
-L VCC #PWR028
+L VCC #PWR029
 U 1 1 5043970C
 P 14800 1400
-F 0 "#PWR028" H 14800 1500 30  0001 C CNN
+F 0 "#PWR029" H 14800 1500 30  0001 C CNN
 F 1 "VCC" H 14800 1500 30  0000 C CNN
 	1    14800 1400
 	1    0    0    -1  

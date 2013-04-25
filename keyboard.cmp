@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 25 Apr 2013 07:20:51 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Apr 2013 12:04:13 AM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -533,6 +533,13 @@ IdModule  = MX1A-ledlock;
 EndCmp
 
 BeginCmp
+TimeStamp = /5179B6C7;
+Reference = DF1;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
 TimeStamp = /516C84CD;
 Reference = DW1;
 ValeurCmp = LED;
@@ -752,6 +759,13 @@ EndCmp
 BeginCmp
 TimeStamp = /516C77CB;
 Reference = R9;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179B6CD;
+Reference = R10;
 ValeurCmp = R;
 IdModule  = R3;
 EndCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 15 Apr 2013 11:01:31 PM CEST
+EESchema Schematic File Version 2  date Fri 26 Apr 2013 12:03:40 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "ukbdc - schematic"
-Date "15 apr 2013"
+Date "25 apr 2013"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -1282,7 +1282,7 @@ Wire Wire Line
 Wire Bus Line
 	6300 6350 9350 6350
 Wire Bus Line
-	9350 6350 9350 4350
+	9350 6350 9350 3750
 Wire Wire Line
 	9850 6200 9700 6200
 Wire Wire Line
@@ -1300,7 +1300,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 5250 10550 5250
 Wire Wire Line
-	10950 5250 11050 5250
+	11050 5250 10950 5250
 Wire Wire Line
 	10400 5050 10550 5050
 Wire Wire Line
@@ -1325,17 +1325,46 @@ Wire Wire Line
 	9850 4650 9900 4650
 Connection ~ 9850 4850
 Wire Wire Line
-	11050 5250 11050 4400
+	11050 3850 11050 5250
 $Comp
-L VCC #PWR?
+L VCC #PWR028
 U 1 1 516C9166
-P 11050 4400
-F 0 "#PWR?" H 11050 4500 30  0001 C CNN
-F 1 "VCC" H 11050 4500 30  0000 C CNN
-	1    11050 4400
+P 11050 3850
+F 0 "#PWR028" H 11050 3950 30  0001 C CNN
+F 1 "VCC" H 11050 3950 30  0000 C CNN
+	1    11050 3850
 	1    0    0    -1  
 $EndComp
 Connection ~ 11050 4650
 Connection ~ 11050 4850
 Connection ~ 11050 5050
+Entry Wire Line
+	9350 4350 9450 4250
+Text Label 9550 4250 0    50   ~ 0
+GPIO2
+Wire Wire Line
+	9450 4250 9900 4250
+$Comp
+L LED DF1
+U 1 1 5179B6C7
+P 10750 4250
+F 0 "DF1" H 10650 4350 50  0000 C CNN
+F 1 "LED" H 10900 4150 50  0000 C CNN
+	1    10750 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 5179B6CD
+P 10150 4250
+F 0 "R10" V 10230 4250 50  0000 C CNN
+F 1 "R" V 10150 4250 50  0000 C CNN
+	1    10150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 4250 10550 4250
+Wire Wire Line
+	10950 4250 11050 4250
+Connection ~ 11050 4250
 $EndSCHEMATC
