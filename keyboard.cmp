@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Apr 2013 12:04:13 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 26 Apr 2013 12:16:30 AM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -540,6 +540,13 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
+TimeStamp = /5179B5DF;
+Reference = DF2;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
 TimeStamp = /516C84CD;
 Reference = DW1;
 ValeurCmp = LED;
@@ -771,6 +778,13 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
+TimeStamp = /5179B5E5;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
 TimeStamp = /50440A9A;
 Reference = S0;
 ValeurCmp = DTSM-6;
@@ -974,15 +988,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDBB;
-Reference = S31;
+TimeStamp = /4F60E920/5042A9E4;
+Reference = S031;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5042A9E4;
-Reference = S031;
+TimeStamp = /4F60E920/5040DDBB;
+Reference = S31;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
@@ -1037,15 +1051,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/50410564;
-Reference = S041;
+TimeStamp = /4F60E920/5040DDC7;
+Reference = S41;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDC7;
-Reference = S41;
+TimeStamp = /4F60E920/50410564;
+Reference = S041;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp

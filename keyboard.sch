@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 26 Apr 2013 12:03:40 AM CEST
+EESchema Schematic File Version 2  date Fri 26 Apr 2013 12:16:09 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -1367,4 +1367,33 @@ Wire Wire Line
 Wire Wire Line
 	10950 4250 11050 4250
 Connection ~ 11050 4250
+Text Label 9550 4050 0    50   ~ 0
+GPIO3
+Wire Wire Line
+	9450 4050 9900 4050
+$Comp
+L LED DF2
+U 1 1 5179B5DF
+P 10750 4050
+F 0 "DF2" H 10650 4150 50  0000 C CNN
+F 1 "LED" H 10900 3950 50  0000 C CNN
+	1    10750 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 5179B5E5
+P 10150 4050
+F 0 "R11" V 10230 4050 50  0000 C CNN
+F 1 "R" V 10150 4050 50  0000 C CNN
+	1    10150 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 4050 10550 4050
+Entry Wire Line
+	9350 4150 9450 4050
+Wire Wire Line
+	10950 4050 11050 4050
+Connection ~ 11050 4050
 $EndSCHEMATC
