@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 05 May 2013 10:36:03 PM CEST
+EESchema Schematic File Version 2  date Mon 06 May 2013 12:35:21 AM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -62,10 +62,9 @@ P 1150 5700
 F 0 "J1" H 1075 6000 60  0000 C CNN
 F 1 "MINI" H 1100 5350 60  0001 C CNN
 F 3 "http://www.tme.eu/pl/Document/af7e127923dc7f74ac659db082bbc882/mx54819.pdf" H 1150 5700 60  0001 C CNN
-F 4 "Molex" H 1150 5700 60  0001 C CNN "Vendor"
-F 5 "0548190572" H 1150 5700 60  0001 C CNN "Product"
-F 6 "TME" H 1150 5700 60  0001 C CNN "Supplier"
-F 7 "MX-54819-0572" H 1150 5700 60  0001 C CNN "Supplier Symbol"
+F 4 "Natconn" H 1150 5700 60  0001 C CNN "Vendor"
+F 5 "U24-05XXX-1" H 1150 5700 60  0001 C CNN "Product"
+F 6 "Alibaba" H 1150 5700 60  0001 C CNN "Supplier"
 	1    1150 5700
 	1    0    0    -1  
 $EndComp
