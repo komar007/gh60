@@ -1,4 +1,4 @@
-update=Thu 25 Apr 2013 07:15:54 PM CEST
+update=Thu 09 May 2013 07:21:17 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=1
-PadSizeH=1
-PadSizeV=1
+PadDrill=1.0008
+PadSizeH=1.6002
+PadSizeV=1.6002
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -42,7 +42,7 @@ ModuleTextSizeH=1.524
 ModuleTextSizeThickness=0.3048
 SolderMaskClearance=0.1016
 DrawSegmentWidth=0.381
-BoardOutlineThickness=0.09906
+BoardOutlineThickness=0.0991
 ModuleOutlineThickness=0.3
 [pcbnew/libraries]
 LibDir=lib
@@ -58,3 +58,4 @@ LibName9=oshw_logo
 LibName10=pad
 LibName11=discret
 LibName12=natconn
+LibName13=logo
