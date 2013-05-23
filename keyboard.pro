@@ -1,4 +1,4 @@
-update=Thu 09 May 2013 07:21:17 PM CEST
+update=Thu 16 May 2013 08:43:58 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -58,4 +58,3 @@ LibName9=oshw_logo
 LibName10=pad
 LibName11=discret
 LibName12=natconn
-LibName13=logo
