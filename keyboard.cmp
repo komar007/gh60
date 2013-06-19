@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Sun 12 May 2013 11:23:46 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 18 Jun 2013 03:28:23 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -512,22 +512,8 @@ IdModule  = SM0805D;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/51900745;
-Reference = DB01;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
 TimeStamp = /519005B1/519007B5;
 Reference = DB02;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/5190081E;
-Reference = DB03;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -561,13 +547,6 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/51900825;
-Reference = DB08;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
 TimeStamp = /519005B1/5190088E;
 Reference = DB09;
 ValeurCmp = LED;
@@ -584,20 +563,6 @@ EndCmp
 BeginCmp
 TimeStamp = /519005B1/51900753;
 Reference = DB11;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/519007C3;
-Reference = DB12;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/5190082C;
-Reference = DB13;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -626,13 +591,6 @@ EndCmp
 BeginCmp
 TimeStamp = /519005B1/519007CA;
 Reference = DB17;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/51900833;
-Reference = DB18;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -827,6 +785,13 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
+TimeStamp = /519005B1/51C0378E;
+Reference = DB051;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
 TimeStamp = /519005B1/5190078B;
 Reference = DB51;
 ValeurCmp = LED;
@@ -890,13 +855,6 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/51900936;
-Reference = DB60;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
 TimeStamp = /519005B1/51900761;
 Reference = DB61;
 ValeurCmp = LED;
@@ -913,20 +871,6 @@ EndCmp
 BeginCmp
 TimeStamp = /519005B1/5190083A;
 Reference = DB63;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/519008A3;
-Reference = DB64;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/5190090C;
-Reference = DB65;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -953,22 +897,50 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/519008AA;
-Reference = DB69;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
-TimeStamp = /519005B1/51900913;
-Reference = DB70;
-ValeurCmp = LED;
-IdModule  = MX1A-led;
-EndCmp
-
-BeginCmp
 TimeStamp = /519005B1/5190076F;
 Reference = DB71;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C065B4;
+Reference = DB101;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C065BA;
+Reference = DB102;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C06955;
+Reference = DB151;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C0300D;
+Reference = DB301;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C03013;
+Reference = DB302;
+ValeurCmp = LED;
+IdModule  = MX1A-led;
+EndCmp
+
+BeginCmp
+TimeStamp = /519005B1/51C02CCF;
+Reference = DB551;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
