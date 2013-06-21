@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 18 Jun 2013 03:28:23 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 21 Jun 2013 11:26:27 AM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -897,8 +897,8 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/5190076F;
-Reference = DB71;
+TimeStamp = /519005B1/51C41A1A;
+Reference = DB69;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -1212,6 +1212,146 @@ IdModule  = pad;
 EndCmp
 
 BeginCmp
+TimeStamp = /51C4E40B;
+Reference = P18;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4E6F7;
+Reference = P19;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4E775;
+Reference = P20;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4E77B;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4E7F9;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4EC39;
+Reference = P23;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F088;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F106;
+Reference = P25;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F10C;
+Reference = P26;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F382;
+Reference = P27;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F388;
+Reference = P28;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F38E;
+Reference = P29;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F394;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F412;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F418;
+Reference = P32;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F41E;
+Reference = P33;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F424;
+Reference = P34;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F42A;
+Reference = P35;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F430;
+Reference = P36;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C4F436;
+Reference = P37;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
 TimeStamp = /4ED6A3B0;
 Reference = R1;
 ValeurCmp = 22;
@@ -1520,15 +1660,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5042A9E4;
-Reference = S031;
+TimeStamp = /4F60E920/5040DDBB;
+Reference = S31;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDBB;
-Reference = S31;
+TimeStamp = /4F60E920/5042A9E4;
+Reference = S031;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp

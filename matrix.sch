@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 18 Jun 2013 03:28:26 PM CEST
+EESchema Schematic File Version 2  date Fri 21 Jun 2013 04:15:52 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "18 jun 2013"
+Date "21 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1874,8 +1874,8 @@ F 7 "1N4148-0805" H 4150 4600 60  0001 C CNN "Supplier Symbol"
 	1    9650 8550
 	1    0    0    -1  
 $EndComp
-Text Notes 9450 9500 0    60   ~ 0
-extra\nrow 15
+Text Notes 9550 10400 0    60   ~ 0
+extra key after\nbackspace
 Wire Wire Line
 	4300 1400 4300 10000
 Wire Wire Line
@@ -2555,4 +2555,8 @@ Wire Wire Line
 	12600 7350 12650 7350
 Connection ~ 12650 7350
 Connection ~ 12200 7100
+Wire Notes Line
+	9500 8750 9500 10500
+Wire Notes Line
+	9500 10500 10250 10500
 $EndSCHEMATC
