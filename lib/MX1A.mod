@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 27 Jun 2013 04:32:46 PM CEST
+PCBNEW-LibModule-V1  Thu 27 Jun 2013 05:50:29 PM CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -377,7 +377,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE MX1A-sm1
 $MODULE MX1A-wire
-Po 0 0 0 15 514B22C5 00000000 ~~
+Po 0 0 0 15 51CC5F40 00000000 ~~
 Li MX1A-wire
 Sc 0
 AR switch_mx3
@@ -390,14 +390,14 @@ DS 7.62 7.62 -7.62 7.62 0.381 21
 DS -7.62 7.62 -7.62 -7.62 0.381 21
 $PAD
 Sh "1" C 2 2 0 0 0
-Dr 1.0008 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -3.81 5.08
 $EndPAD
 $PAD
 Sh "2" C 2 2 0 0 0
-Dr 1.0008 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 3.81 5.08
