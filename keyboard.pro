@@ -1,4 +1,4 @@
-update=Thu 27 Jun 2013 05:43:29 PM CEST
+update=Thu 27 Jun 2013 05:55:22 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=0.8128
-PadSizeH=1.6
-PadSizeV=1.6
+PadDrill=0.9
+PadSizeH=1.8
+PadSizeV=1.8
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -54,7 +54,6 @@ LibName5=ASX3F
 LibName6=molex-usb
 LibName7=TQFP44
 LibName8=SM0805
-LibName9=oshw_logo
-LibName10=pad
-LibName11=natconn
-LibName12=resistor
+LibName9=pad
+LibName10=natconn
+LibName11=resistor
