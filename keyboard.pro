@@ -1,4 +1,4 @@
-update=Thu 16 May 2013 08:43:58 PM CEST
+update=Thu 27 Jun 2013 05:43:29 PM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -31,9 +31,9 @@ EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=1.0008
-PadSizeH=1.6002
-PadSizeV=1.6002
+PadDrill=0.8128
+PadSizeH=1.6
+PadSizeV=1.6
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -56,5 +56,5 @@ LibName7=TQFP44
 LibName8=SM0805
 LibName9=oshw_logo
 LibName10=pad
-LibName11=discret
-LibName12=natconn
+LibName11=natconn
+LibName12=resistor
