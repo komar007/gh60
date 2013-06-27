@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Fri 21 Jun 2013 11:26:27 AM CEST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Thu 27 Jun 2013 06:43:20 PM CEST
 
 BeginCmp
 TimeStamp = /4E99B63E;
@@ -785,15 +785,15 @@ IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/51C0378E;
-Reference = DB051;
+TimeStamp = /519005B1/5190078B;
+Reference = DB51;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
 
 BeginCmp
-TimeStamp = /519005B1/5190078B;
-Reference = DB51;
+TimeStamp = /519005B1/51C0378E;
+Reference = DB051;
 ValeurCmp = LED;
 IdModule  = MX1A-led;
 EndCmp
@@ -1345,8 +1345,43 @@ IdModule  = pad;
 EndCmp
 
 BeginCmp
-TimeStamp = /51C4F436;
+TimeStamp = /51CD1DED;
 Reference = P37;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1DF3;
+Reference = P38;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1DF9;
+Reference = P39;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1DFF;
+Reference = P40;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1E05;
+Reference = P41;
+ValeurCmp = CONN_1;
+IdModule  = pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51CD1E0B;
+Reference = P42;
 ValeurCmp = CONN_1;
 IdModule  = pad;
 EndCmp
@@ -1660,15 +1695,15 @@ IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5040DDBB;
-Reference = S31;
+TimeStamp = /4F60E920/5042A9E4;
+Reference = S031;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F60E920/5042A9E4;
-Reference = S031;
+TimeStamp = /4F60E920/5040DDBB;
+Reference = S31;
 ValeurCmp = MX1A;
 IdModule  = MX1A-b;
 EndCmp
