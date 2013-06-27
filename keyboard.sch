@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 21 Jun 2013 05:05:28 PM CEST
+EESchema Schematic File Version 2  date Thu 27 Jun 2013 05:14:24 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
