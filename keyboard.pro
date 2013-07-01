@@ -1,6 +1,6 @@
-update=Thu 27 Jun 2013 10:41:38 PM CEST
+update=Mon 01 Jul 2013 11:05:52 PM CEST
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -23,17 +23,12 @@ LibName5=dtsjw
 LibName6=oupiin_usb
 LibName7=device
 LibName8=conn
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=0.9
-PadSizeH=1.8
-PadSizeV=1.8
+PadDrill=0
+PadSizeH=3.1
+PadSizeV=1
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -45,7 +40,6 @@ DrawSegmentWidth=0.381
 BoardOutlineThickness=0.0991
 ModuleOutlineThickness=0.3
 [pcbnew/libraries]
-LibDir=lib
 LibName1=MX1A
 LibName2=HIROSE_USB
 LibName3=oupiin_usb_mini_3515
@@ -57,4 +51,10 @@ LibName8=SM0805
 LibName9=pad
 LibName10=natconn
 LibName11=resistor
-LibName12=gh60
+LibName12=CandK_KSE
+LibDir=lib
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
