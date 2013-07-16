@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 07 Jul 2013 04:08:49 PM CEST
+EESchema Schematic File Version 2  date Tue 16 Jul 2013 08:34:22 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "ukbdc - schematic"
-Date "7 jul 2013"
+Date "16 jul 2013"
 Rev ""
 Comp "komar"
 Comment1 ""
@@ -522,8 +522,6 @@ Entry Wire Line
 Entry Wire Line
 	6100 4050 6200 4150
 Entry Wire Line
-	6100 4150 6200 4250
-Entry Wire Line
 	6100 4450 6200 4550
 Entry Wire Line
 	6100 4650 6200 4750
@@ -654,7 +652,7 @@ Entry Wire Line
 	6550 5350 6650 5250
 Entry Wire Line
 	6550 5450 6650 5350
-Text Label 5850 4150 0    60   ~ 0
+Text Label 5850 3450 0    60   ~ 0
 col9
 Text Label 6700 5450 0    60   ~ 0
 col10
@@ -1220,16 +1218,6 @@ Wire Wire Line
 	3100 1300 3700 1300
 Wire Wire Line
 	4750 5650 6100 5650
-Wire Wire Line
-	5100 4150 4750 4150
-Wire Wire Line
-	5100 4250 5100 4150
-Wire Wire Line
-	5500 4250 5100 4250
-Wire Wire Line
-	5500 4150 5500 4250
-Wire Wire Line
-	6100 4150 5500 4150
 Wire Wire Line
 	6100 3950 5400 3950
 Wire Wire Line
