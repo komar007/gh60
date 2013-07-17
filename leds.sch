@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Jul 2013 08:34:22 PM CEST
+EESchema Schematic File Version 2  date Wed 17 Jul 2013 02:58:23 PM CEST
 LIBS:power
 LIBS:mx1a-simple
 LIBS:aker
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "16 jul 2013"
+Date "17 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
