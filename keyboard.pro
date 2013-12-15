@@ -1,6 +1,6 @@
-update=Mon 01 Jul 2013 11:05:52 PM CEST
+update=Sun 01 May 2016 11:31:22 PM CEST
 version=1
-last_client=cvpcb
+last_client=kicad
 [general]
 version=1
 [eeschema]
@@ -23,12 +23,17 @@ LibName5=dtsjw
 LibName6=oupiin_usb
 LibName7=device
 LibName8=conn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
-PadDrill=0
-PadSizeH=3.1
-PadSizeV=1
+PadDrill=0.9
+PadSizeH=0.9
+PadSizeV=0.9
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -40,6 +45,7 @@ DrawSegmentWidth=0.381
 BoardOutlineThickness=0.0991
 ModuleOutlineThickness=0.3
 [pcbnew/libraries]
+LibDir=lib
 LibName1=MX1A
 LibName2=HIROSE_USB
 LibName3=oupiin_usb_mini_3515
@@ -52,9 +58,14 @@ LibName9=pad
 LibName10=natconn
 LibName11=resistor
 LibName12=CandK_KSE
-LibDir=lib
-[cvpcb]
+LibName13=smallfry_logo
+[schematic_editor]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+PageLayoutDescrFile=layout.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

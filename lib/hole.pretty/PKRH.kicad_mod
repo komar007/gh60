@@ -1,0 +1,15 @@
+(module PKRH (layer F.Cu) (tedit 56D0D44A)
+  (attr virtual)
+  (fp_text reference HOLE (at 0.1753 5.7861) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0.17526 -4.9022) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7.00024 7.00024) (drill oval 5.00126 2.49936) (layers *.Cu *.Mask))
+  (model cherry_mx1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

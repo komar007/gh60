@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name tqfp)(type KiCad)(uri "$(KIPRJMOD)/lib/tqfp.pretty")(options "")(descr ""))
+  (lib (name 0805)(type KiCad)(uri "$(KIPRJMOD)/lib/0805.pretty")(options "")(descr ""))
+  (lib (name ndk)(type KiCad)(uri "$(KIPRJMOD)/lib/ndk.pretty")(options "")(descr ""))
+  (lib (name usb)(type KiCad)(uri "$(KIPRJMOD)/lib/usb.pretty")(options "")(descr ""))
+  (lib (name mx1a)(type KiCad)(uri "$(KIPRJMOD)/lib/mx1a.pretty")(options "")(descr ""))
+  (lib (name hole)(type KiCad)(uri "$(KIPRJMOD)/lib/hole.pretty")(options "")(descr ""))
+  (lib (name dtsm)(type KiCad)(uri "$(KIPRJMOD)/lib/dtsm.pretty")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/lib/logos.pretty")(options "")(descr ""))
+  (lib (name res)(type KiCad)(uri "$(KIPRJMOD)/lib/res.pretty")(options "")(descr ""))
+)
