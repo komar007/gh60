@@ -1,6 +1,8 @@
 # GH60
 GH60 - an open-source mechanical keyboard PCB designed for the community at [geekhack](geekhack.org).
 
+You can read more over [here](http://blog.komar.be/projects/gh60-programmable-keyboard/).
+
 ![alt text](http://blog.komar.be/wp-content/uploads/2013/02/ttt1-640x257.jpg)
 
 ## Geekhack threads
